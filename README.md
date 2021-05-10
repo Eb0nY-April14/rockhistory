@@ -1,52 +1,80 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![christYmet logo]()
 
-Welcome USER_NAME,
+# christYmet History Website
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+(View the live project here.)
 
-## Gitpod Reminders
+This is a history website for Ogun State Ministry of Tourism, Nigeria. It was developed to provide information to tourists and potential investors and also for the purpose of preserving our culture and heritage for the next generation.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Its aim is to open up the state and make it a tourism hub within Africa and the world at large.
 
-`python3 -m http.server`
+It is designed to be responsive and accessible on a range of devices thereby making it easy to navigate through and find useful and relevant content.
 
-A blue button should appear to click: _Make Public_,
+(TAKE PICTURES OF DESKTOP, LAPTOP, TABLET & SMARTPHONE WITH MY WEBSITE ON THEM AND PUT THEM HERE.)
 
-Another blue button should appear to click: _Open Browser_.
+User Experience (UX)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* User stories
 
-A blue button should appear to click: _Make Public_,
+    * First Time Visitor Goals
 
-Another blue button should appear to click: _Open Browser_.
+        a) I want to easily understand the main purpose of the site and learn more about the history that surrounds the rock.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+        b) I want to be able to navigate easily throughout the site to find useful content.
 
-To log into the Heroku toolbelt CLI you can use:
+        c) I want to be able to locate and connect to their social media links to see their followings in order to determine how trusted and popular they are.
 
-`heroku login -i`
+        d) I want to be able to make enquiries about the site and historical monument.
 
-If you have Multi-Factor Authentication (MFA) enabled then use the API key that was generated for you at [Heroku](https://dashboard.heroku.com/account) as your password.
-This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+    * Returning Visitor Goals
 
-## Updates Since The Instructional Video
+        a) I want to be able to find relevant information about the opening hours, entry fee etc. to see if there are any changes.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+        b) I want to find the best way to get in contact with the tourist centre with any questions or feedbacks I may have.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+        c) I want to be able to connect to their social media links to provide feedback and get up to date information about upcoming events.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    * Design
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+        * Colour Scheme
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+            * The two main colours used are light sky blue and black i.e the background colour is light sky blue with black fonts.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+        *  Typography
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+            * The (---------------) font is the main font used throughout the whole website with sans-serif as the fallback font in case the imported font was not imported correctly. (-------------) is a clean font used frequently in programming so it is both appropriate and attractive.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+        * Imagery
 
----
+            * Imagery is important. The large image of the Olumo Rock is used  to capture the users imagination and attract them to visit the tourist centre.  It is designed to take up the full width of the 'Home' Page to make it striking and catch the user's attention.
 
-Happy coding!
+        * Wireframes
+
+            * Home Page - View (Place Link View here)
+
+            * History Page - View
+
+            * Event Timeline - View
+
+            * Gallery - View
+
+            * Contact Us - View
+
+            * Enquiry/Feedback - View
+
+Features
+
+* Responsive on all device sizes
+
+* Interactive elements
+
+
+
+
+
+
+
+
+
+
+
