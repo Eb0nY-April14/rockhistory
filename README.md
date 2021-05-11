@@ -1,4 +1,4 @@
-![christYmet logo]()
+![christYmet logo](Users/ChristianaTemiola/Desktop/CodeInstituteProject1-OlumoRock/images/myWebsiteLogo.jpg)
 
 # christYmet History Website
 
@@ -67,6 +67,97 @@ Features
 * Responsive on all device sizes
 
 * Interactive elements
+
+Technologies Used
+
+* Languages Used
+
+    * HTML5
+
+    * CSS3
+
+* Tools Used
+
+    * uizard wireframe for prototyping
+
+Issues Encountered
+
+
+
+
+
+
+Frameworks, Libraries and Programs Used
+
+1. Google Fonts
+
+    * Google Fonts was used to import the Titillium web font into the style.css file which is used on all pages throughout the project.
+
+2. Git
+
+    * Git was used for version control by utilising the Gitpod terminal to commit to Git and push to GitHub.
+
+3. GitHub
+
+    * GitHub was used to store the project's code after being pushed from Git.
+
+4. JPEG Compressor
+
+    * JPEG Compressor was used to resize images used on this website.
+
+5. Wix Logo Maker
+
+    * Wix logo maker was used to create the website's logo called christYmet.
+
+6. uizard wireframe
+
+    * uizard was used to create the wireframes used during the design process.
+
+Testing
+
+The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+*  W3C Markup Validator - Result (I will make the 'Result' to be a link)
+
+* W3C CSS Validator - Result
+
+Testing User Stories from User Experience (UX) Section
+
+* First Time Visitor Goals
+
+    i. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the history that surrounds the existence of the rock.
+
+        a. Users are automatically greeted with a clean and easily readable navigation bar to take them to any page of their choice.
+
+        b. Users are presented with a large image of the Olumo Rock which covers the entire width of the page and its aim is to make the user's imagination run wild and attract them to come visit.
+
+        c. Users are given a short introduction of the site and an in-depth history of the rock.
+
+        d. The 'Gallery' page displays various images of the rock taken at different views and their historical importance. It also contains pictures of tourists/visitors to the centre.
+
+        e. Information about the opening times and entry fee are displayed clearly on the home page for every visitor and most especially first time visitors to see.
+
+    ii. As a First Time Visitor, I want to be able to navigate easily throughout the site to find content.
+
+        a. The site was built with flexibility in mind.  This means that width percentages that allows the site to scale up and down easily across different screen sizes and devices were used.
+
+        b. The site was made never to entrap the user.  There is a clean navigation bar at the top of each page and each of the links clearly describes what page the users will end up at when it is clicked.
+
+        c. There is a "Back to top of the Page" button at the bottom of each page so users can easily get back to the top of the page when at the bottom instead of using the scroll bar which can be frustrating to the user.
+
+        d. There is a Google Map link in the "Contact Page" that gives direction to users on how to locate the centre for first time visitors.
+
+    iii. As a First Time Visitor, I want to lok for testimonials to understand what their users think of them and also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+
+    a. The user can scroll to the bottom of any page on the site to locate social media links in the footer.
+
+    b. On the "Contact Us" page, additional ways of getting in touch are provided there. 
+
+* Returning Visitor Goal  
+
+    i. As a Returning Visitor,
+
+        
 
 
 
