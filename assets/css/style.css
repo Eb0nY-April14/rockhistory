@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+} 
+
+.fr{
+    float:right;
+    width: 250px;
+ } 
+
+ .wrapper {
+    width:100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;     /* margin: 0 auto; shorthand way of writing margin-top, bottom, right & left. */ 
+    margin-left: auto;
+    list-style: none;
+    padding-left: 10%;  
+}
+
+main h2 {
+    text-align: center;
+}
+
+#header {
+    color: cyan;
+    font-size: 200%; 
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+a {
+    color: cyan;
+}
+
+nav > ul, div > ul {            
+    margin:0;
+    padding:0;
+    list-style: none;
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: black;                  
+    max-width:80%;
+    font-size: 150%; 
+    font-weight: bold;
+    color: lime;       
+}
+
+
