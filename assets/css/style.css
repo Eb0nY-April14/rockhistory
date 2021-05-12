@@ -96,4 +96,20 @@ side by side on the same line. */
     text-align: center;
 } 
 
+/* This foo class targets the footer area to style its 
+font & background colours & centre the text.  */   
+.foo {
+    text-align: center;  
+    background-color: darkslategrey;
+    color:whitesmoke;
+}
+
+/* This wrapper class is used to wrap the elements they are used with
+ in order to apply style.  */
+.wrapper {
+    width:100%;
+    margin: 0 auto;  
+    list-style: none;
+    padding-left: 10%;  
+}
 
