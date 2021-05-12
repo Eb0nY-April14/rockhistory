@@ -131,9 +131,35 @@ myBtn {
     font-weight: bold;
 }
 
+body {
+    background-color: lightskyblue;
+    color: black;
+}
+
  /* Colour of the "back to top" button changes when mouse
   is hovered over this button */
 #myBtn:hover {                     
     background-color: #7dbbf1;
 }
+
+/* THESE LINES OF CODE TARGET THE IMAGES USED AS ICONS FOR SOCIAL MEDIA LINKS ON THE FOOTER SECTION. */ 
+.foo ul li img {
+    width: 30%;  /* 100% */
+    height: 90px;   /* 180px  */
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.external {
+    color: royalblue;
+    font-size: 150%;  
+}
+
+/* This class makes the colour of the "nav, Google map & social media" links changes when mouse is hovered over this button */
+.external:hover {  
+   color: lightpink;
+}
+
 
