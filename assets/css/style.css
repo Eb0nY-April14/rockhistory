@@ -56,20 +56,40 @@ nav > ul, div > ul {
     color: lime;       
 }
 
+/* This 'container' class is used to position the text
+ written on the image relative to it */
 .container {
     position: relative;
     text-align: center;
     color: white;
 }
 
-   /*Bottom right text */
+   /* This 'message' class is used to place text on the 
+   image of the rock */
 .message {
     position: absolute;
     bottom: 10%;
     right: 20%;
-    /*border: 2px solid red; */
     padding: 30px;
     font-size: 3em;
   }  
+
+  th, td {
+    border: 2px solid black;
+    padding: 0.5em;
+}
+
+/* The sidebyside class becomes a flex container & the two 
+tables automatically becomes flex items so they can sit 
+side by side on the same line. */ 
+.sidebyside {
+    margin:0;
+    padding:0;
+    list-style: none;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: space-between;
+}
 
 
