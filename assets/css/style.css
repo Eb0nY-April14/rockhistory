@@ -31,8 +31,14 @@ main h2 {
     font-family: cursive, Verdana, Geneva, Tahoma, sans-serif; 
 }
 
+main img {
+    margin-top: 30px;
+    width: 100%;
+}
+
 a {
     color: cyan;
+    text-decoration: none;
 }
 
 nav > ul, div > ul {            
@@ -49,5 +55,21 @@ nav > ul, div > ul {
     font-weight: bold;
     color: lime;       
 }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+   /*Bottom right text */
+.message {
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+    /*border: 2px solid red; */
+    padding: 30px;
+    font-size: 3em;
+  }  
 
 
