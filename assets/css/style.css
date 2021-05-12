@@ -92,4 +92,8 @@ side by side on the same line. */
     justify-content: space-between;
 }
 
+.text-center {
+    text-align: center;
+} 
+
 
