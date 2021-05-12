@@ -6,6 +6,10 @@ html {
     text-align: center;
 } 
 
+.text-center > h1 {
+    padding-top: 1em;
+} 
+
 .fr{
     float:right;
     width: 250px;
@@ -36,9 +40,24 @@ main img {
     width: 100%;
 }
 
+/* This styles specific paragraphs and list */
+#header p, #home p, #eventtimeline p, #eventtimeline ul,
+.ogun p, footer p {
+    font-size: 120%;
+}
+
 a {
     color: cyan;
     text-decoration: none;
+}
+
+/* This piece of code style the header section. */
+#header {
+    color: cyan;
+    font-size: 200%; 
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: black;
+    /*position: fixed; */
 }
 
 nav > ul, div > ul {            
@@ -142,7 +161,8 @@ body {
     background-color: #7dbbf1;
 }
 
-/* THESE LINES OF CODE TARGET THE IMAGES USED AS ICONS FOR SOCIAL MEDIA LINKS ON THE FOOTER SECTION. */ 
+/* These lines of code target the images used as icons for
+ social media links on the footer section. */ 
 .foo ul li img {
     width: 30%;  /* 100% */
     height: 90px;   /* 180px  */
@@ -157,7 +177,9 @@ body {
     font-size: 150%;  
 }
 
-/* This class makes the colour of the "nav, Google map & social media" links changes when mouse is hovered over this button */
+/* This class makes the colour of the "nav, Google map &
+ social media" links changes when mouse is hovered over
+this button */
 .external:hover {  
    color: lightpink;
 }
