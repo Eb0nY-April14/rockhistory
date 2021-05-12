@@ -5,7 +5,7 @@
 View the live project in the link below:
 https://8000-black-clam-54hfbq3g.ws-eu04.gitpod.io/
 
-# Olumo Rock  
+# christYmet Website 
 
 This is a history website created for christYmet, a subsidiary department under the Ogun State Ministry of Tourism in Nigeria. It was developed to provide useful information to both first time and returning visitors ranging from tourists, students, researchers of history and potential investors alike about the famous Olumo Rock located in Abeokuta, the South Western part of Nigeria in West Africa. 
 
@@ -29,6 +29,7 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
     <img src="assets/imagesfolder/navBar.png">
 
+<br>
 
 * The Home Page
 
@@ -37,6 +38,12 @@ It is designed to be responsive on all device sizes and accessible on a range of
     * The image of the rock is boldly positioned there to capture the users attention and make them long for a visit to the rock.
 
     <img src="assets/imagesfolder/olumoRock.jpg">
+
+<br>
+
+* History of Olumo Rock Page
+
+    * This Page gives a detailed history about this natural monument 
 
 
 
