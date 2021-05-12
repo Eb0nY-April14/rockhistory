@@ -113,3 +113,27 @@ font & background colours & centre the text.  */
     padding-left: 10%;  
 }
 
+/* This styles the 'Back to top' button  */
+myBtn {
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 94.25%;
+    max-width: 5%;    
+    width: 100%;
+    font-size: 12px;
+    border-color: rgba(85, 85, 85, 0.2); 
+    background-color:  lightslategrey;                             
+    padding: 0.5px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+ /* Colour of the "back to top" button changes when mouse
+  is hovered over this button */
+#myBtn:hover {                     
+    background-color: #7dbbf1;
+}
+
