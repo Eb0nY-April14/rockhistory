@@ -1,16 +1,45 @@
-![christYmet logo](Users/ChristianaTemiola/Desktop/CodeInstituteProject1-OlumoRock/images/myWebsiteLogo.jpg)
 
-# christYmet History Website
 
-(View the live project here.)
+<img src="assets/imagesfolder/myWebsiteLogo.jpg">
 
-This is a history website for Ogun State Ministry of Tourism, Nigeria. It was developed to provide information to tourists and potential investors and also for the purpose of preserving our culture and heritage for the next generation.
+View the live project in the link below:
+https://8000-black-clam-54hfbq3g.ws-eu04.gitpod.io/
 
-Its aim is to open up the state and make it a tourism hub within Africa and the world at large.
+# Olumo Rock  
 
-It is designed to be responsive and accessible on a range of devices thereby making it easy to navigate through and find useful and relevant content.
+This is a history website created for christYmet, a subsidiary department under the Ogun State Ministry of Tourism in Nigeria. It was developed to provide useful information to both first time and returning visitors ranging from tourists, students, researchers of history and potential investors alike about the famous Olumo Rock located in Abeokuta, the South Western part of Nigeria in West Africa. 
+
+The aim of the product owner which is christYmet, is to assist the government in its effort to open up the state for tourism and attract visitors to the Olumo Rock in order to make it a tourist hub within Africa and the world at large thereby providing jobs for the locals which results into economy boost and icrease in revenue generation for the state.  It also aims at preserving the cultural heritage of the Yoruba tribe in South West Nigeria for both the present and future generations.
 
 (TAKE PICTURES OF DESKTOP, LAPTOP, TABLET & SMARTPHONE WITH MY WEBSITE ON THEM AND PUT THEM HERE.)
+
+# Features
+
+It is designed to be responsive on all device sizes and accessible on a range of devices thereby making it easy to navigate through and find useful and relevant content.
+
+## Existing Features
+
+* Navigation Bar
+
+    * It appears on all four pages and the full responsive navigation bar includes links to the Home Page, "History of Olumo Rock" Page, Gallery Page and the "Contact Us" Page which includes contact details section and enquiry/feedback Form section and it is identical across all pages to allow for easy navigation.
+
+    * It will also allow the user to navigate easily from page to page across all devices without having to go back to the previous page via the 'back' button.
+
+    * The navigation Bar Screenshot below:
+
+    <img src="assets/imagesfolder/navBar.png">
+
+
+* The Home Page
+
+    * The home page has an image of the Olumo Rock with a caption of "Olumo Rock" boldly written on it.
+
+    * The image of the rock is boldly positioned there to capture the users attention and make them long for a visit to the rock.
+
+    <img src="assets/imagesfolder/olumoRock.jpg">
+
+
+
 
 User Experience (UX)
 
@@ -62,11 +91,7 @@ User Experience (UX)
 
             * Enquiry/Feedback - View
 
-Features
 
-* Responsive on all device sizes
-
-* Interactive elements
 
 Technologies Used
 
