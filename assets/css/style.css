@@ -85,6 +85,18 @@ nav > ul, div > ul {        /*div > ul */
     max-width: 80%;  
 } */
 
+#enquiry legend, #contact legend {/*#contact> p*/
+    font-weight: bold;
+    font-size: 2em; 
+    text-align: center;
+}
+
+#contact, #enquiry {
+    padding: 50px 0 0 50px; 
+    margin: 10px, 0, 10px, 10px;
+    text-align:center;
+}
+
 /* This 'container' class is used to position the text
  written on the image relative to it */
 .container {
