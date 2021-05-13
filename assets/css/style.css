@@ -6,13 +6,20 @@ html {
     text-align: center;
 } 
 
-.text-center > h1 {
-    padding-top: 1em;
+div > h2 {
+    text-align: center;    /*left; */
 } 
 
+/* #header > h1 {
+    padding-top: 0.5em;
+    text-align: left;
+    width: 50%;
+} */
+
 .fr{
-    float:right;
-    width: 250px;
+    float: right;
+    width: 250px;     /*100px;    10%; */
+   /* height: 5rem; */
  } 
 
  .wrapper {
@@ -27,12 +34,6 @@ html {
 
 main h2 {
     text-align: center;
-}
-
-#header {
-    color: cyan;
-    font-size: 200%; 
-    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif; 
 }
 
 main img {
@@ -54,13 +55,18 @@ a {
 /* This piece of code style the header section. */
 #header {
     color: cyan;
-    font-size: 200%; 
+    font-size: 150%; 
     font-family: cursive, Verdana, Geneva, Tahoma, sans-serif; 
     background-color: black;
+    padding-top: 0.5px;
     /*position: fixed; */
 }
 
-nav > ul, div > ul {            
+/*#header > h1 {
+    padding-top: 0.5em;
+} */
+
+nav > ul, div > ul {        /*div > ul */    
     margin:0;
     padding:0;
     list-style: none;
@@ -69,11 +75,18 @@ nav > ul, div > ul {
     flex-direction:row;
     justify-content: space-between;
     background-color: black;                  
-    max-width:80%;
+    max-width:60%;
     font-size: 150%; 
     font-weight: bold;
-    color: lime;       
+    /*color: lime;  */    
 }
+
+footer ul {
+                    
+    max-width: 80%;
+    
+
+} 
 
 /* This 'container' class is used to position the text
  written on the image relative to it */
@@ -111,9 +124,6 @@ side by side on the same line. */
     justify-content: space-between;
 }
 
-.text-center {
-    text-align: center;
-} 
 
 /* This foo class targets the footer area to style its 
 font & background colours & centre the text.  */   
@@ -121,6 +131,7 @@ font & background colours & centre the text.  */
     text-align: center;  
     background-color: darkslategrey;
     color:whitesmoke;
+    /*height: 100vh; */
 }
 
 /* This wrapper class is used to wrap the elements they are used with
@@ -131,6 +142,10 @@ font & background colours & centre the text.  */
     list-style: none;
     padding-left: 10%;  
 }
+
+h3 {
+    font-size: x-large;
+} 
 
 /* This styles the 'Back to top' button  */
 myBtn {
@@ -151,7 +166,7 @@ myBtn {
 }
 
 body {
-    background-color: lightskyblue;
+    background-color: rgb(181, 240, 181);
     color: black;
 }
 
