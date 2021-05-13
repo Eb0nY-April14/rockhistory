@@ -16,10 +16,11 @@ div > h2 {
     width: 50%;
 } */
 
+/* This class styles the Website Logo  */
 .fr{
     float: right;
-    width: 250px;     /*100px;    10%; */
-   /* height: 5rem; */
+    width: 200px;    
+    height: 5.5rem; 
  } 
 
  .wrapper {
@@ -41,9 +42,8 @@ main img {
     width: 100%;
 }
 
-/* This styles specific paragraphs and list */
-#header p, #home p, #eventtimeline p, #eventtimeline ul,
-.ogun p, footer p {
+/* This styles specific paragraphs and list  #eventtimeline p, #eventtimeline ul*/
+#header p, #home p, .ogun p, footer p {
     font-size: 120%;
 }
 
@@ -56,14 +56,14 @@ a {
 #header {
     color: cyan;
     font-size: 150%; 
-    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     padding-top: 0.5px;
-    /*position: fixed; */
+    /*position: fixed;   cursive, Verdana, Geneva, Tahoma, sans-serif;*/
 }
 
 /*#header > h1 {
-    padding-top: 0.5em;
+    padding-top: 0.5em;   
 } */
 
 nav > ul, div > ul {        /*div > ul */    
@@ -75,18 +75,15 @@ nav > ul, div > ul {        /*div > ul */
     flex-direction:row;
     justify-content: space-between;
     background-color: black;                  
-    max-width:60%;
-    font-size: 150%; 
+    max-width:80%;
+    font-size: 180%; 
     font-weight: bold;
     /*color: lime;  */    
 }
 
-footer ul {
-                    
-    max-width: 80%;
-    
-
-} 
+/*footer ul {                  
+    max-width: 80%;  
+} */
 
 /* This 'container' class is used to position the text
  written on the image relative to it */
@@ -147,8 +144,13 @@ h3 {
     font-size: x-large;
 } 
 
+body {
+    background-color: rgb(181, 240, 181);
+    color: black;
+}
+
 /* This styles the 'Back to top' button  */
-myBtn {
+#myBtn {
     color: white;
     position: fixed;
     bottom: 10px;
@@ -157,23 +159,19 @@ myBtn {
     left: 94.25%;
     max-width: 5%;    
     width: 100%;
-    font-size: 12px;
+    font-size: 1em; /*12px; */
     border-color: rgba(85, 85, 85, 0.2); 
-    background-color:  lightslategrey;                             
+    background-color:  darkslategrey;                           
     padding: 0.5px;
+    margin-bottom: 1px;
     border-radius: 4px;
     font-weight: bold;
-}
-
-body {
-    background-color: rgb(181, 240, 181);
-    color: black;
 }
 
  /* Colour of the "back to top" button changes when mouse
   is hovered over this button */
 #myBtn:hover {                     
-    background-color: #7dbbf1;
+    background-color: #052a4b;
 }
 
 /* These lines of code target the images used as icons for
