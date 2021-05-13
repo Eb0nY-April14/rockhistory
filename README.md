@@ -1,6 +1,6 @@
 
 
-<img src="assets/imagesfolder/myWebsiteLogo.jpg">
+<img src="assets/imagesfolder/newWebsiteLogo.png">
 
 View the live project in the link below:
 https://8000-black-clam-54hfbq3g.ws-eu04.gitpod.io/
