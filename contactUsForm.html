@@ -10,10 +10,7 @@
 <body>
     <header id="header">
         <img src="assets/imagesfolder/newWebsiteLogo.png" alt="A Logo of my Website." class="fr">
-        <!-- <div class="text-center">  -->
-          <h1>History Website</h1> <!--christYmet-->
-        <!-- <p><em>helping to preserve our heritage.</em></p> -->
-       <!-- </div> --> 
+          <h1>History Website</h1> 
    </header>
 
    <div class="wrapper">
@@ -35,7 +32,6 @@
 </div>
 
 <section id="contact">
-    <!-- <div id="contact">  -->
         <fieldset>
             <legend>Contact Details</legend>
             <p><strong>Phone:</strong> +353831819265</p>
@@ -43,6 +39,32 @@
             <p><strong>Email:</strong><a class="external" href="mailto: christYmet@gmail.com">christYmet@gmail.com</a></p>
         </fieldset>
     </section>
+
+    <form id="enquiry" action="contactUsForm.html" method="POST">
+        <fieldset>
+            <legend>Your Query/Feedback</legend>
+            <p>
+                <label for="cust"><strong>Name:</strong></label>
+                <input type="text" name="cust-name" id="cust">
+            </p>
+
+            <p>
+                <label for="email"><strong>Email:</strong></label>
+                <input type="text" name="cust-email" id="email">
+            </p>
+
+            <p>
+                <label for="comment"><strong>Comment:</strong></label><br>
+                <textarea name="cust-comment" id="comment" cols="30" rows="10">
+                </textarea>
+            </p>
+
+            <p>
+                <button class="btn" type="submit">Submit</button>
+            </p> 
+        </fieldset>
+    </form>
+
     
 </body>
 </html>
