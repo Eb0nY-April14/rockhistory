@@ -58,8 +58,8 @@ a {
     font-size: 150%; 
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
-    padding-top: 0.5px;
-    /*position: fixed;   cursive, Verdana, Geneva, Tahoma, sans-serif;*/
+    padding-top: 0.5px;  
+    /* position: fixed;   /*cursive, Verdana, Geneva, Tahoma, sans-serif;*/
 }
 
 /*#header > h1 {
@@ -85,10 +85,13 @@ nav > ul, div > ul {        /*div > ul */
     max-width: 80%;  
 } */
 
+fieldset {
+    width: 50%;
+}
+
 #enquiry legend, #contact legend {/*#contact> p*/
     font-weight: bold;
     font-size: 2em; 
-    text-align: center;
 }
 
 #contact, #enquiry {
@@ -140,6 +143,7 @@ font & background colours & centre the text.  */
     text-align: center;  
     background-color: darkslategrey;
     color:whitesmoke;
+   /* position: fixed;   /* 
     /*height: 100vh; */
 }
 
@@ -150,6 +154,7 @@ font & background colours & centre the text.  */
     margin: 0 auto;  
     list-style: none;
     padding-left: 10%;  
+    /* position: fixed;   /* Just included this but will remove if it doesn't work as i expect */
 }
 
 h3 {
@@ -173,7 +178,7 @@ body {
     width: 100%;
     font-size: 1em; /*12px; */
     border-color: rgba(85, 85, 85, 0.2); 
-    background-color:  darkslategrey;                           
+    background-color: #000; /*darkslategrey; */                          
     padding: 0.5px;
     margin-bottom: 1px;
     border-radius: 4px;
@@ -188,9 +193,9 @@ body {
 
 /* These lines of code target the images used as icons for
  social media links on the footer section. */ 
-.foo ul li img {
-    width: 30%;  /* 100% */
-    height: 90px;   /* 180px  */
+.foo ul li img  {   /* li img  */
+    width: 15%;  /* 30% 100% */
+    height: 50px;   /*  90px 180px  */
 }
 
 .bold {
