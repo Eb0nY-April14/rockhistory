@@ -105,8 +105,8 @@ fieldset {
     padding: 0.5em;
 }
 
-/* The sidebyside class becomes a flex container & the two 
-tables automatically becomes flex items so they can sit 
+/* The sidebyside class becomes a flex container so tables on index
+page & content on history page automatically becomes flex items respectively so they can sit 
 side by side on the same line. */ 
 .sidebyside {
     margin:0;
@@ -116,6 +116,20 @@ side by side on the same line. */
     flex-wrap:wrap;
     flex-direction:row;
     justify-content: space-between;
+}
+
+/* This sets the properties that the 2 ids #aboutolumorock & #facts flex items will have. */
+#aboutolumorock {
+    width: 60%;
+    text-align: justify;
+    margin-right: 5px;
+    background-color: purple;
+}
+
+#facts {
+    width: 35%;
+    text-align: justify;
+    background-color: purple;
 }
 
 /* This puts a margin to separate the footer area from the form area */
@@ -186,9 +200,9 @@ body {
 
 /* These lines of code target the images used as icons for
  social media links on the footer section. */ 
-.foo ul li img  {   /* li img  */
-    width: 15%;  /* 30% 100% */
-    height: 50px;   /*  90px 180px  */
+.foo ul li img  {   
+    width: 15%;  
+    height: 50px;   
 }
 
 .bold {
@@ -207,8 +221,10 @@ this button */
    color: lightpink;
 }
 
-/* Added Media Query here so that for devices with smaller screen
- sizes of 600px and below, the nav bar collapses into the default
+
+
+/* Added Media Query to the nav bar so that for devices with smaller screen
+ sizes of 600px and below, it collapses into the default
 display property of block elements which is "display: block" i.e.
 "underneath each other" instead of the general rule of "display: flex"
 i.e. "side by side" declared for the nav bar and footer sections earlier above.  */  
@@ -220,6 +236,9 @@ i.e. "side by side" declared for the nav bar and footer sections earlier above. 
         border: 2px, solid;
     }  
 }
+
+
+
 
 
 
