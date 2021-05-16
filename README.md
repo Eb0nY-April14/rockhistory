@@ -7,7 +7,7 @@ https://8000-black-clam-54hfbq3g.ws-eu04.gitpod.io/
 
 # christYmet Website 
 
-This is a history website created for christYmet, a subsidiary department under the Ogun State Ministry of Tourism in Nigeria. It was developed to provide useful information to both first time and returning visitors ranging from tourists, students, researchers of history and potential investors alike about the famous Olumo Rock located in Abeokuta, the South Western part of Nigeria in West Africa. 
+This is a history website created for christYmet, a subsidiary department under the Ogun State Tourism Board in Nigeria. It was developed to provide useful information about the Olumo Rock Tourist Centre to both first time and returning visitors ranging from tourists, students, researchers of history and potential investors alike about the famous Olumo Rock located in Abeokuta, the South Western part of Nigeria in West Africa. 
 
 The aim of the product owner which is christYmet, is to assist the government in its effort to open up the state for tourism and attract visitors to the Olumo Rock in order to make it a tourist hub within Africa and the world at large thereby providing jobs for the locals which results into economy boost and icrease in revenue generation for the state.  It also aims at preserving the cultural heritage of the Yoruba tribe in South West Nigeria for both the present and future generations.
 
@@ -119,11 +119,16 @@ Issues Encountered
 
 
 
+
+
 Frameworks, Libraries and Programs Used
 
-1. Google Fonts
+1. sansation_light.woff Web Open Font Format (WOFF)
 
-    * Google Fonts was used to import the Titillium web font into the style.css file which is used on all pages throughout the project.
+    * This Font was used throughout the website creation but in varied  sizes. The 'name' values for the font are first defined within the @font-face rule which are 'myFirstFont' and 'myBodyFont' and then point to the font file. The name of the font (i.e myFirstFont) will then be referred to through the font-family property before it can be used for an HTML element.
+    
+    
+    the url it a src into the style.css file which is used on all pages throughout the project.
 
 2. Git
 
