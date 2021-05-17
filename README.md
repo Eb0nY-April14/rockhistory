@@ -5,9 +5,11 @@
 View the live project in the link below:
 https://8000-black-clam-54hfbq3g.ws-eu04.gitpod.io/
 
-# christYmet Website 
+# Olumo Rock 
 
-This is a history website created for christYmet, a subsidiary department under the Ogun State Tourism Board in Nigeria. It was developed to provide useful information about the Olumo Rock Tourist Centre to both first time and returning visitors ranging from tourists, students, researchers of history and potential investors alike about the famous Olumo Rock located in Abeokuta, the South Western part of Nigeria in West Africa. 
+This website was created for the purpose of providing useful information about the Olumo Rock Tourist Centre to both first time and returning visitors ranging from tourists, students, researchers of history and potential investors alike about the famous Olumo Rock located in Abeokuta, the South Western part of Nigeria in West Africa. 
+
+It is an history website created for christYmet, a subsidiary department under the Ogun State Tourism Board in Nigeria.
 
 The aim of the product owner which is christYmet, is to assist the government in its effort to open up the state for tourism and attract visitors to the Olumo Rock in order to make it a tourist hub within Africa and the world at large thereby providing jobs for the locals which results into economy boost and icrease in revenue generation for the state.  It also aims at preserving the cultural heritage of the Yoruba tribe in South West Nigeria for both the present and future generations.
 
@@ -27,11 +29,11 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
     * The navigation Bar Screenshot below:
 
-    <img src="assets/imagesfolder/navBar.png">
+    <img src="assets/imagesfolder/navBar.JPG">
 
 <br>
 
-* The Home Page
+* The Home Page Image
 
     * The home page has an image of the Olumo Rock with a caption of "Olumo Rock" boldly written on it.
 
@@ -39,11 +41,24 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
     <img src="assets/imagesfolder/olumoRock.jpg">
 
+    * Welcome Section
+
+        * The home page has an introduction section called 'Welcome' that welcomes the user to the site. It also gives a brief explanation about the site, the rock and the history surrounding it.
+
+        * Opening Hours & Entry Fee Section
+
+            * This section keeps the user informed about the opening hours and entry fee which is a vital information especially for first time visitors and also returning visitors to monitor changes to opening hours or entry fee since they last visited. This information is vital in the sense that it will help them in planning well ahead of their journey whenever they choose to visit. 
+
+            * Direction and Further Enquiries Section
+
+                * In this section, a user is presented with two external links which are Google Map and Ogun State Government Tourism board website and can access them by the use of the 'Click Me' buttons provided on the page. When any of the buttons is clicked, it will either take them to Google Map site where the location and direction to the tourist centre is, and they can use that as a guide to finding the centre or the State tourism board site for further enquiries.  
+
+
 <br>
 
 * History of Olumo Rock Page
 
-    * This Page gives a detailed history about this natural monument 
+    * This Page gives a detailed history about the rock and provides facts and figures too. It explained the significance of the rock, the hunter who discovered it, the purpose it served during the 19th century war, its location and size. 
 
 
 
@@ -126,9 +141,6 @@ Frameworks, Libraries and Programs Used
 1. sansation_light.woff Web Open Font Format (WOFF)
 
     * This Font was used on all pages throughout the website creation but in different styles and sizes. The 'name' values for the font are first defined within the @font-face rule which are 'myFirstFont' and 'myBodyFont' and then point to the font file. The name of the font (i.e myFirstFont) will then be referred to through the font-family property before it can be used for an HTML element.
-    
-    
-    the url it a src into the style.css file which is used on all pages throughout the project.
 
 2. Git
 
