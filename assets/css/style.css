@@ -292,19 +292,41 @@ body {
     left: 94.25%;
     max-width: 5%;    
     width: 100%;
-    font-size: 1em; 
+    font-size: 1.2em; 
     border-color: rgba(85, 85, 85, 0.2); 
     background-color: #000;                           
-    padding: 0.5px;
+    padding: 1.5px;
     margin-bottom: 1px;
-    border-radius: 4px;
+    border-radius: 6px;
     font-weight: bold;
+    text-align:center;
 }
 
  /* Colour of the "back to top" button changes when mouse
   is hovered over this button */
 #myBtn:hover {                     
     background-color: #052a4b;
+}
+
+/* This styles the 'external links' button  */
+#extLinkBtn {
+    color: white;
+    max-width: 35%;    
+    width: 100%;
+    font-size: 1.5em; 
+    border-color: rgba(85, 85, 85, 0.2); 
+    background-color: #000;                           
+    padding: 1px;
+    margin-bottom: 1px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+ /* Colour of the "external links" button changes when mouse
+  is hovered over this button */
+#extLinkBtn:hover {                     
+    background-color: #052a4b;
+    color: #ff1493;
 }
 
 /* These lines of code target the images used as icons for
