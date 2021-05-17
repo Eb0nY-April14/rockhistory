@@ -5,7 +5,7 @@
 View the live project in the link below:
 https://8000-black-clam-54hfbq3g.ws-eu04.gitpod.io/
 
-# Olumo Rock 
+# Olumo Rock History
 
 This website was created for the purpose of providing useful information about the Olumo Rock Tourist Centre to both first time and returning visitors ranging from tourists, students, researchers of history and potential investors alike about the famous Olumo Rock located in Abeokuta, the South Western part of Nigeria in West Africa. 
 
@@ -20,6 +20,10 @@ The aim of the product owner which is christYmet, is to assist the government in
 It is designed to be responsive on all device sizes and accessible on a range of devices thereby making it easy to navigate through and find useful and relevant content.
 
 ## Existing Features
+
+* Header
+
+    * The header acts as a window to the entire website. It contains the organisation's Logo to the right and the website name to the left of the page. 
 
 * Navigation Bar
 
@@ -51,8 +55,7 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
             * Direction and Further Enquiries Section
 
-                * In this section, a user is presented with two external links which are Google Map and Ogun State Government Tourism board website and can access them by the use of the 'Click Me' buttons provided on the page. When any of the buttons is clicked, it will either take them to Google Map site where the location and direction to the tourist centre is, and they can use that as a guide to finding the centre or the State tourism board site for further enquiries.  
-
+                * In this section, a user is presented with two external links which are Google Map and Ogun State Government Tourism board website and can access them by the use of the 'Click Me' buttons provided on the page. When any of the buttons is clicked, it will either take them to Google Map site where the location and direction to the tourist centre is, and they can use that as a guide to finding the centre or the State tourism board site for further enquiries.
 
 <br>
 
@@ -60,7 +63,18 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
     * This Page gives a detailed history about the rock and provides facts and figures too. It explained the significance of the rock, the hunter who discovered it, the purpose it served during the 19th century war, its location and size. 
 
+* Gallery Page
 
+    * This page contains a gallery of pictures. It shows different views of the rock, other side attractions such as the heritage museum, the african version of the 'ludo' game known as 'ayo' which is close to the 'mancala' board game , pictures of visitors and a whole lot more of activities for visitors delight and enjoyment.
+
+* Contact Us Page
+
+    * This page consists of two sections: the 'Contact Details' and the 'Query/Feedback' form section.  The Contact Details section provides the Phone number, Office and Email address of the website owner christYmet so that users who may need it can access it easily.
+    The Query/Feedback section is an HTML form that allow users to send their queries and/or give feedbacks so that the website owner can use this information to further improve on the services being provided. 
+
+    <img src="assets/imagesfolder/contact1.JPG">
+
+    <img src="assets/imagesfolder/contact2.JPG">
 
 
 User Experience (UX)
@@ -89,11 +103,11 @@ User Experience (UX)
 
         * Colour Scheme
 
-            * The two main colours used are light sky blue and black i.e the background colour is light sky blue with black fonts.
+            * Gradient colour ranging from a lighter shade of red to a darker shade are used as background colour throughout the website. It blends well into the font colour of black which is predominantly used for texts on every page.
 
         *  Typography
 
-            * The (---------------) font is the main font used throughout the whole website with sans-serif as the fallback font in case the imported font was not imported correctly. (-------------) is a clean font used frequently in programming so it is both appropriate and attractive.
+            * The Web Safe Fonts format (WOFF) was repeatedly used on every page of this website but with variations in sizes and font weights. The source provided is src: url(sansation_light.woff). This font is one of the most common and frequently used web safe fonts in HTML and most browsers recognise it.
 
         * Imagery
 
