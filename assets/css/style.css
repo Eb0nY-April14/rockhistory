@@ -309,7 +309,7 @@ body {
 }
 
 /* This styles the 'external links' button  */
-#extLinkBtn {
+#extLinkBtn, #extLinkBttn {
     color: white;
     max-width: 35%;    
     width: 100%;
@@ -324,7 +324,7 @@ body {
 
  /* Colour of the "external links" button changes when mouse
   is hovered over this button */
-#extLinkBtn:hover {                     
+#extLinkBtn:hover, #extLinkBttn:hover {                     
     background-color: #052a4b;
     color: #ff1493;
 }
