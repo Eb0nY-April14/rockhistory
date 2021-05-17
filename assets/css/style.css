@@ -329,6 +329,10 @@ body {
     color: #ff1493;
 }
 
+p.way {
+    margin-top: 8em;
+}
+
 /* These lines of code target the images used as icons for
  social media links on the footer section. */ 
 .foo ul li img  {   
