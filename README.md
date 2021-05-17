@@ -125,7 +125,7 @@ Frameworks, Libraries and Programs Used
 
 1. sansation_light.woff Web Open Font Format (WOFF)
 
-    * This Font was used throughout the website creation but in varied  sizes. The 'name' values for the font are first defined within the @font-face rule which are 'myFirstFont' and 'myBodyFont' and then point to the font file. The name of the font (i.e myFirstFont) will then be referred to through the font-family property before it can be used for an HTML element.
+    * This Font was used on all pages throughout the website creation but in different styles and sizes. The 'name' values for the font are first defined within the @font-face rule which are 'myFirstFont' and 'myBodyFont' and then point to the font file. The name of the font (i.e myFirstFont) will then be referred to through the font-family property before it can be used for an HTML element.
     
     
     the url it a src into the style.css file which is used on all pages throughout the project.
