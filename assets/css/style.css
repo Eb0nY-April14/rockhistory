@@ -256,10 +256,15 @@ font & background colours & centre the text.  */
     padding-left: 10%;  
 }
 
-body {
+/*body {
     background-color: rgb(181, 240, 181);
     color: black;
+} */
+
+body {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
 }
+
 
 /* This estsblishes the @font-face rule without bolding it */
 @font-face {
@@ -315,7 +320,7 @@ body {
 
 .external {
     color: rgb(100, 6, 80);
-    font-size: 150%;  
+    font-size: 1.2em;   
 }
 
 /* This class makes the colour of the "nav, Google map &
