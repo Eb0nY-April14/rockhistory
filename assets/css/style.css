@@ -13,9 +13,15 @@ html {
 /* This class styles the Website Logo  */
 .fr{
     float: right;
-    width: 200px;    
-    height: 5.5rem; 
+    width: 10%;      /*250px height: 5.5rem;  */  
+    height: 3.5rem; 
  } 
+
+ #sidenote {
+    width: 50%;
+    text-align: justify;  
+    margin-left: 15em;
+}
 
  .wrapper {
     width:100%;
@@ -30,43 +36,58 @@ main img {
     width: 100%;
 }
 
-/*h2, h3 {
-    font-family: cursive;
-}*/
+.ogun img {
+    width: 2%;
+    margin-top: 1em;
+}
 
-/* This styles specific paragraphs and list */
-#header p, #home p, .ogun p, footer p {
-    font-size: 120%;
+nav {
+    margin-top: 2em;    
+}
+
+/* This applies paddings & margins to individual list items in the nav bar. */
+nav li {
+    padding: 0.2em 1em;
 }
 
 .slim {
     font-style: italic;
 }
 
+/* This is used to style the nav links. */
 a  {
     color: cyan; 
     text-decoration: none;
     font-style: italic;
+    font-family: myFirstFont;
+    font-size: 1.5em;
 }
 
 /* This piece of code style the header section. */
 #header {
     color: cyan;
-    font-size: 150%; 
-   /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     background-color: black;
-    padding-top: 0.5px;  
-    /* position: fixed; */  
+    padding-top: 0.5px; 
+    padding-bottom: 1.5px;  
+    /*position: fixed; */  
 }
 
+/* This estsblishes the @font-face rule and bolds it */
 @font-face {
     font-family: myFirstFont;
     src: url(sansation_bold.woff);
     font-weight: bold;
  }
 
- #header h1, footer p, h2, h3, a {     
+ /* This uses the @font-face rule declared above on elements & ids listed below */
+#header h1, .foo p, h2, h3 {    
     font-family: myFirstFont;
+    font-size: 1.5em;
+ }
+
+ #enquiry legend, #contact legend {
+    font-family: myFirstFont;
+    font-size: 2em;
  }
 
 nav > ul, div > ul {       
@@ -79,7 +100,6 @@ nav > ul, div > ul {
     justify-content: space-between;
     background-color: black;                  
     max-width:80%;
-    font-size: 180%; 
     font-weight: bold;   
 }
 
@@ -94,21 +114,10 @@ fieldset {
     margin-bottom: 0.2em;
 }
 
+/* This sets the font size of legends */
 #enquiry legend, #contact legend { 
-    font-weight: bold;
-    font-size: 2em; 
     padding-top: 5em;
-    /*margin-left: 20em; */
 }
-
-#contact p, #enquiry p, .btn {
-    font-size: 1.2em;
-}
-
-/*#contact, #enquiry {
-    padding: 50px 0 0 50px; 
-    margin: 10px, 0, 15px, 60px;  
-} */
 
 /* This 'container' class is used to position the text
  written on the image relative to it */
@@ -130,9 +139,9 @@ fieldset {
 
   #home {
       width: 50%;
-      margin: 0 25em 5em 20em;
+      margin: 0 25em 1em 23em;      /*0 25em 5em 23em;*/
       background-color: #717e7e;
-      padding: 5em;
+      padding: 8em 5em 10em 5em;       /*5em;*/
   }
 
   th, td {
@@ -153,7 +162,7 @@ side by side on the same line. */
     justify-content: space-between;
 }
 
-/* Opening Hours */
+/* Styling Opening Hours section */
 #left {
     margin-left: 20em;
     width: 20%;
@@ -165,15 +174,13 @@ side by side on the same line. */
     padding-bottom: 5em;
 }
 
-/* Entry Fee */
+/* Styling Entry Fee section */
 #right {
     margin-right: 5em;
     width: 40%;
     background-color: #717e7e;
     padding-left: 1.3em;
 }
-
-
 
 /* This sets the properties that the 2 ids #aboutolumorock & #facts flex items will have. */
 #aboutolumorock {
@@ -188,9 +195,40 @@ side by side on the same line. */
     width: 30%;
     text-align: justify;
     background-color: #717e7e;
-    margin: 8em 0.5em 0 0;
-    padding: 2em;
+    margin: 6.6em 0.5em 0 0;
+    padding: 2em 2em 2em 3em;  
 }
+
+/* This puts border around each picture in the gallery */
+div.gallery {
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    margin-left: 30px; 
+  }
+
+  /* This highlights the border around a picture in the gallery when hovered upon */
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+
+  /* This sets the width & height of each image in the gallery */ 
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* This styles the images description */
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+
 /* This puts a margin to separate the footer area from the form area */
 footer {
     margin-top: 300px;
@@ -207,8 +245,6 @@ font & background colours & centre the text.  */
     text-align: center;  
     background-color: darkslategrey;
     color:whitesmoke;
-   /* position: fixed;   /* 
-    /*height: 100vh; */
 }
 
 /* This wrapper class is used to wrap the elements they are used with
@@ -218,30 +254,28 @@ font & background colours & centre the text.  */
     margin: 0 auto;  
     list-style: none;
     padding-left: 10%;  
-    /* position: fixed;   /* Just included this but will remove if it doesn't work as i expect */
 }
-
-h3 {
-    font-size: x-large;
-} 
 
 body {
     background-color: rgb(181, 240, 181);
     color: black;
-    font-family:
-    Arial, Helvetica, sans-serif;
 }
 
-    @font-face {
-        font-family: myBodyFont;
-        src: url(sansation_light.woff);
-     }
+/* This estsblishes the @font-face rule without bolding it */
+@font-face {
+    font-family: myBodyFont;
+    src: url(sansation_light.woff);
+}
 
-     body {
-        font-family: myBodyFont;  
-     }
-         
+#aboutolumorock p, #facts, .btn, p, div.desc {
+    font-family: myBodyFont;  
+    font-size: 1.2em;
+    font-style:italic;
+ }
 
+ div.desc {
+    text-align: justify;
+}  
 
 /* This styles the 'Back to top' button  */
 #myBtn {
@@ -253,9 +287,9 @@ body {
     left: 94.25%;
     max-width: 5%;    
     width: 100%;
-    font-size: 1em; /*12px; */
+    font-size: 1em; 
     border-color: rgba(85, 85, 85, 0.2); 
-    background-color: #000; /*darkslategrey; */                          
+    background-color: #000;                           
     padding: 0.5px;
     margin-bottom: 1px;
     border-radius: 4px;
@@ -291,8 +325,6 @@ this button */
    color: lightpink;
 }
 
-
-
 /* Added Media Query to the nav bar so that for devices with smaller screen
  sizes of 600px and below, it collapses into the default
 display property of block elements which is "display: block" i.e.
@@ -306,6 +338,31 @@ i.e. "side by side" declared for the nav bar and footer sections earlier above. 
         border: 2px, solid;
     }  
 }
+
+/* Media Query that apply the rule if screen size is 700px or less */
+@media screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  /* Media Query that apply the rule if screen size is 500px or less */
+  @media screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  /* This code block clears the columns used in the images so
+  that paragraph element used can default to its normal flow 
+  (i.e block) */
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 
 
 
