@@ -11,12 +11,12 @@ html {
 }
 
 /* This class styles the Website Logo  */
-.fr{
+/*.fr{
     float: right;
-    width: 10%;      /*250px height: 5.5rem;  */  
+    width: 10%;      /*250px height: 5.5rem;  
     height: 3.5rem; 
- } 
-
+ } */
+ 
  #sidenote {
     width: 50%;
     text-align: justify;  
@@ -31,9 +31,10 @@ html {
 }
 
 main img {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 100%;
+    margin-top: 3em;   /*30px; */
+    margin-bottom: 5em;  /*30px; */
+    width: 80%;
+    max-width: 100%;
 }
 
 .ogun img {
@@ -64,13 +65,26 @@ a  {
 }
 
 /* This piece of code style the header section. */
-#header {
+/*#header {
     color: cyan;
     background-color: black;
     padding-top: 0.5px; 
     padding-bottom: 1.5px;  
-    /*position: fixed; */  
-}
+    /*position: fixed;  
+} */
+
+#header {
+    background: black;
+    color: cyan;
+    padding: 2vmin 1rem;
+    text-align: center;
+    margin: 0 0 5vmin 0;
+  }
+
+#header h1 {
+    margin: 0;
+    font-size: 5rem;
+  }
 
 /* This estsblishes the @font-face rule and bolds it */
 @font-face {
@@ -139,9 +153,9 @@ fieldset {
 
   #home {
       width: 50%;
-      margin: 0 25em 1em 23em;      /*0 25em 5em 23em;*/
+      margin: 0 10em 1em 18em;     
       background-color: #717e7e;
-      padding: 8em 5em 10em 5em;       /*5em;*/
+      padding: 8em 5em 10em 5em;       
   }
 
   th, td {
@@ -164,7 +178,7 @@ side by side on the same line. */
 
 /* Styling Opening Hours section */
 #left {
-    margin-left: 20em;
+    margin-left: 10em;   /*20em; */
     width: 20%;
     background-color: #717e7e;
     padding-right: 2em;
@@ -176,7 +190,7 @@ side by side on the same line. */
 
 /* Styling Entry Fee section */
 #right {
-    margin-right: 5em;
+    margin-right: 10em;  /*5em; */
     width: 40%;
     background-color: #717e7e;
     padding-left: 1.3em;
@@ -231,8 +245,8 @@ div.gallery {
 
 /* This puts a margin to separate the footer area from the form area */
 footer {
-    margin-top: 300px;
-    padding-top: 60px;   
+    margin-top: 100px;
+    padding-top: 20px;   
 }
 
 footer > h2 {
