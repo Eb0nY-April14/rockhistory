@@ -77,7 +77,12 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
 * History of Olumo Rock Page
 
-    * This Page gives a detailed history about the rock and provides facts and figures too. It explained the significance of the rock, the hunter who discovered it, the purpose it served during the 19th century war, its location and size. 
+    * This Page gives a detailed history about the rock and provides facts and figures too. It explained the significance of the rock, the hunter who discovered it, the purpose it served during the 19th century war, its location and size.
+
+    * See the 'History of Olumo Rock' Page Screenshot below:
+
+    <img src="assets/imagesfolder/olumoRockHistory1.JPG">
+    <img src="assets/imagesfolder/olumoRockHistory2.JPG"> 
 
 * Gallery Page
 
