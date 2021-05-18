@@ -57,7 +57,7 @@ nav li {
 
 /* This is used to style the nav links. */
 a  {
-    color: cyan; 
+    color:  #ff1493;
     text-decoration: none;
     font-style: italic;
     font-family: myFirstFont;
@@ -115,6 +115,10 @@ nav > ul, div > ul {
     background-color: black;                  
     max-width:80%;
     font-weight: bold;   
+}
+
+nav ul a:visited {
+    color: #00ffff;
 }
 
 nav ul a:hover {
