@@ -23,7 +23,12 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
 * Header
 
-    * The header acts as a window to the entire website. It contains the organisation's Logo to the right and the website name to the left of the page. 
+    * The header acts as a window to the entire website. It has both the organisation's Logo and what the site is all about (i.e Olumo Rock History) positioned in the centre of the header. 
+    
+    * See the 'Header' screenshot below:
+
+    <img src="assets/imagesfolder/myWebsiteHeader.JPG">
+
 
 * Navigation Bar
 
@@ -31,7 +36,7 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
     * It will also allow the user to navigate easily from page to page across all devices without having to go back to the previous page via the 'back' button.
 
-    * The navigation Bar Screenshot below:
+    * See the 'Navigation Bar' Screenshot below:
 
     <img src="assets/imagesfolder/navBar.JPG">
 
@@ -49,14 +54,25 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
         * The home page has an introduction section called 'Welcome' that welcomes the user to the site. It also gives a brief explanation about the site, the rock and the history surrounding it.
 
-        * Opening Hours & Entry Fee Section
+        * See the 'Welcome' Section Screenshot below:
 
-            * This section keeps the user informed about the opening hours and entry fee which is a vital information especially for first time visitors and also returning visitors to monitor changes to opening hours or entry fee since they last visited. This information is vital in the sense that it will help them in planning well ahead of their journey whenever they choose to visit. 
+        <img src="assets/imagesfolder/welcomeIndexPage.JPG">
 
-            * Direction and Further Enquiries Section
+    * Opening Hours & Entry Fee Section
 
-                * In this section, a user is presented with two external links which are Google Map and Ogun State Government Tourism board website and can access them by the use of the 'Click Me' buttons provided on the page. When any of the buttons is clicked, it will either take them to Google Map site where the location and direction to the tourist centre is, and they can use that as a guide to finding the centre or the State tourism board site for further enquiries.
+        * This section keeps the user informed about the opening hours and entry fee which is a vital information especially for first time visitors and also returning visitors to monitor changes to opening hours or entry fee since they last visited. This information is vital in the sense that it will help them in planning well ahead of their journey whenever they choose to visit. 
 
+        * See the 'Opening Hours & Entry Fee' Section Screenshot below:
+
+        <img src="assets/imagesfolder/openHrsEntryFee.JPG">
+
+    * Direction and Further Enquiries Section
+
+         * In this section, a user is presented with two external links which are Google Map and Ogun State Government Tourism board website and can access them by the use of the 'Click Me' buttons provided on the page. When any of the buttons is clicked, it will either take them to Google Map site where the location and direction to the tourist centre is, and they can use that as a guide to finding the centre or the State tourism board site for further enquiries.
+
+         * See the 'Direction and Further Enquiries' Section Screenshot below:
+
+        <img src="assets/imagesfolder/externalLinks.JPG">
 <br>
 
 * History of Olumo Rock Page
@@ -71,6 +87,8 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
     * This page consists of two sections: the 'Contact Details' and the 'Query/Feedback' form section.  The Contact Details section provides the Phone number, Office and Email address of the website owner christYmet so that users who may need it can access it easily.
     The Query/Feedback section is an HTML form that allow users to send their queries and/or give feedbacks so that the website owner can use this information to further improve on the services being provided. 
+
+    * See the 'Contact Us' Page Screenshot below:
 
     <img src="assets/imagesfolder/contact1.JPG">
 
