@@ -1,9 +1,9 @@
 
-
 <img src="assets/imagesfolder/newWebsiteLogo.png">
 
-View the live project in the link below:
-https://8000-black-clam-54hfbq3g.ws-eu04.gitpod.io/
+<br>
+
+View the live project [here](https://8000-black-clam-54hfbq3g.ws-eu04.gitpod.io/)
 
 # Olumo Rock History
 
@@ -129,21 +129,13 @@ User Experience (UX)
 
         * Imagery
 
-            * Imagery is important. The large image of the Olumo Rock is used  to capture the users imagination and attract them to visit the tourist centre.  It is designed to take up the full width of the 'Home' Page to make it striking and catch the user's attention.
+            * Imagery is important. The large image of the Olumo Rock is used to capture the users imagination and attract them to visit the tourist centre.  It is designed to take up almost the full width of the 'Home' Page to make it striking and catch the user's attention.  Also, the Gallery Page consists of a wide range of pictures for users to view and enjoy.
 
         * Wireframes
 
-            * Home Page - View (Place Link View here)
+            * The tool used to design the prototype for this website is uizard. To view the prototype for Home, History of Olumo Rock, Gallery and Contact Us Pages, click [here](https://app.uizard.io/prototypes/d9LEdo097Ph8RZGqE0XX)
 
-            * History Page - View
-
-            * Event Timeline - View
-
-            * Gallery - View
-
-            * Contact Us - View
-
-            * Enquiry/Feedback - View
+            
 
 
 
