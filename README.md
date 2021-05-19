@@ -88,6 +88,14 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
     * This page contains a gallery of pictures. It shows different views of the rock, other side attractions such as the heritage museum, the african version of the 'ludo' game known as 'ayo' which is close to the 'mancala' board game , pictures of visitors and a whole lot more of activities for visitors delight and enjoyment.
 
+     * See the 'Gallery' Page Screenshot below:
+
+    <img src="assets/imagesfolder/galleryImage1.JPG">
+    <img src="assets/imagesfolder/galleryImage2.JPG">
+    <img src="assets/imagesfolder/galleryImage3.JPG">
+    <img src="assets/imagesfolder/galleryImage4.JPG">
+    <img src="assets/imagesfolder/galleryImage5.JPG">
+
 * Contact Us Page
 
     * This page consists of two sections: the 'Contact Details' and the 'Query/Feedback' form section.  The Contact Details section provides the Phone number, Office and Email address of the website owner christYmet so that users who may need it can access it easily.
