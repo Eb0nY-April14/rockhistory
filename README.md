@@ -21,24 +21,15 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
 ## Existing Features
 
-* Header
-
-    * The header acts as a window to the entire website. It has both the organisation's Logo and what the site is all about (i.e Olumo Rock History) positioned in the centre of the header. 
-    
-    * See the 'Header' screenshot below:
-
-    <img src="assets/imagesfolder/myWebsiteHeader.JPG">
-
-
 * Navigation Bar
 
-    * It appears on all four pages and the full responsive navigation bar includes links to the Home Page, "History of Olumo Rock" Page, Gallery Page and the "Contact Us" Page which includes contact details section and enquiry/feedback Form section and it is identical across all pages to allow for easy navigation.
+    * It appears on all four pages and is identical across the pages to allow for easy navigation. The full responsive navigation bar consists of the organisation's Logo positioned to the left and the links to the Home Page, "History of Olumo Rock" Page, Gallery Page and the "Contact Us" Page are placed towards the mid-right section of the navigation bar.  
 
-    * It will also allow the user to navigate easily from page to page across all devices without having to go back to the previous page via the 'back' button.
+    * The links on the navigation bar are connected together across all pages to allow the user to navigate easily from page to page across all devices without having to go back to the previous page via the 'back' button.
 
     * See the 'Navigation Bar' Screenshot below:
 
-    <img src="assets/imagesfolder/navBar.JPG">
+    <img src="assets/imagesfolder/myWebsiteHeaderNavBar.JPG">
 
 <br>
 
@@ -95,6 +86,7 @@ It is designed to be responsive on all device sizes and accessible on a range of
     <img src="assets/imagesfolder/galleryImage3.JPG">
     <img src="assets/imagesfolder/galleryImage4.JPG">
     <img src="assets/imagesfolder/galleryImage5.JPG">
+    <img src="assets/imagesfolder/galleryImage6.JPG">
 
 * Contact Us Page
 
