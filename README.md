@@ -197,17 +197,17 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 *  W3C Markup Validator 
 
-    * Home Page Result
+    * Home Page [Result]() 
 
-    * History of Olumo Rock Page Result
+    * History of Olumo Rock Page [Result]()
 
-    * Gallery Page Result
+    * Gallery Page [Result]()
 
-    * Contact Us Page Result
+    * Contact Us Page [Result]()
 
 * W3C CSS Validator
 
-    * style.css Result
+    * style.css Result [Result]()
 
 Testing User Stories from User Experience (UX) Section
 
