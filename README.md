@@ -195,9 +195,19 @@ Testing
 
 The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-*  W3C Markup Validator - Result (I will make the 'Result' to be a link)
+*  W3C Markup Validator 
 
-* W3C CSS Validator - Result
+    * Home Page Result
+
+    * History of Olumo Rock Page Result
+
+    * Gallery Page Result
+
+    * Contact Us Page Result
+
+* W3C CSS Validator
+
+    * style.css Result
 
 Testing User Stories from User Experience (UX) Section
 
