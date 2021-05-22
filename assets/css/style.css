@@ -200,12 +200,12 @@ respectively so they can sit side by side. */
 #right {
     margin-right: 10em;  
     width: 40%; 
-    background-color: #717e7e;
+    background-color: #717e7e; 
     padding-left: 1.3em;    
 }
 
 #right table {
-    padding-left: 5em;
+    padding-left: 2em;
 }
 
 /* This sets the properties that the 2 ids #aboutolumorock & #facts flex items will have. */
@@ -387,15 +387,12 @@ this button */
     *{
         box-sizing: border-box;
     }
-
-    /* This makes the display proprty of sidebyside class change from flex to block if the
-     condition above is met. */ 
-    .sidebyside{
+    .sidebyside{       /* This makes the display proprty of sidebyside class change from flex to block if the
+                                condition above is met. */ 
         display: block;
     }
 
-    /* Adjusts the width (size) & margins of left & right classes if condition above is met. */
-    #left{
+    #left{              /* Adjusts the width (size) & margins of left & right classes if condition above is met. */
         width:50%;
         margin:0 auto;
     }
@@ -403,32 +400,31 @@ this button */
         width:50%;
         margin:0 auto;
     }
-
 }
 
 /* Media Query that apply the set of rules below if screen size is 700px or less */
 @media screen and (max-width: 700px) {
-    /* This rule is released to the responsive class on gallery page if condition above is met*/
-    .responsive {
+    .responsive {       /* This rule is released to the responsive class on gallery page if condition above is met*/
       width: 49.99999%;
       margin: 6px 0;
     }
-    /* This rule changes the size of left & right class when the condition is met. */
-    #left{
-        width:80%;
+    #left{           /* This rule changes the size of left & right class when the condition is met. */
+        width:80%; 
         margin:0 auto;
     }
     #right{
-        width:80%;
+        width:80%; 
         margin:0 auto;
     }
-    /* This rule adjusts the margins on the fieldset element 
-    if the above condition is met.*/ 
-    fieldset{
+    fieldset{       
         margin:0 auto;
     }
-  }
-
+   
+    #home {           /* margin-left is reduced */
+        width: 40%; 
+        margin: 0 auto;  /*  0 9em 1em 6em; */
+    } 
+}
 /* Media Query is applied to the nav bar when screen
  size is 600px or less, it changes the link's display 
  property from flex to block.  */  
@@ -455,8 +451,8 @@ this button */
     }
      /* cc added body and  #left and #right below */
      body{
-         min-width: 350px;
-     }
+         min-width: 350px; 
+    }
      #left{
         width:100%;
         margin:0 auto;
@@ -474,9 +470,6 @@ this button */
     display: table;
     clear: both;
   }
-
-
-
 
 
 
