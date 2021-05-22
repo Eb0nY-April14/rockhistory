@@ -1,9 +1,7 @@
 
 <img src="assets/imagesfolder/newWebsiteLogo.png">
 
-<br>
-
-View the live project [here](https://8000-black-clam-54hfbq3g.ws-eu04.gitpod.io/)
+&nbsp; 
 
 # Olumo Rock History
 
@@ -13,7 +11,9 @@ It is an history website created for christYmet, a subsidiary department under t
 
 The aim of the product owner which is christYmet, is to assist the government in its effort to open up the state for tourism and attract visitors to the Olumo Rock in order to make it a tourist hub within Africa and the world at large thereby providing jobs for the locals which results into economy boost and icrease in revenue generation for the state.  It also aims at preserving the cultural heritage of the Yoruba tribe in South West Nigeria for both the present and future generations.
 
-(TAKE PICTURES OF DESKTOP, LAPTOP, TABLET & SMARTPHONE WITH MY WEBSITE ON THEM AND PUT THEM HERE.)
+<img src="amIresponsive-myWebsite.JPG">
+
+&nbsp;
 
 # Features
 
@@ -31,7 +31,7 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
     <img src="assets/imagesfolder/myWebsiteHeaderNavBar.JPG">
 
-<br>
+ &nbsp; 
 
 * The Home Page Image
 
@@ -41,6 +41,8 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
     <img src="assets/imagesfolder/olumoRock.jpg">
 
+    &nbsp; 
+
     * Welcome Section
 
         * The home page has an introduction section called 'Welcome' that welcomes the user to the site. It also gives a brief explanation about the site, the rock and the history surrounding it.
@@ -48,6 +50,8 @@ It is designed to be responsive on all device sizes and accessible on a range of
         * See the 'Welcome' Section Screenshot below:
 
         <img src="assets/imagesfolder/welcomeIndexPage.JPG">
+
+        &nbsp; 
 
     * Opening Hours & Entry Fee Section
 
@@ -64,7 +68,20 @@ It is designed to be responsive on all device sizes and accessible on a range of
          * See the 'Direction and Further Enquiries' Section Screenshot below:
 
         <img src="assets/imagesfolder/externalLinks.JPG">
-<br>
+
+    &nbsp; 
+
+    * The Footer Section
+
+        * The footer section includes links to the relevant social media platforms for christYmet History website where users can get plugged in to get access to up-to-date information and interact with both the site's administrators and fellow users alike. These social media links will open in a new tab so it doesn't interfere with the current page the user is on and allow for easy navigation on the website.
+
+        * The footer is very useful to the user as it encourages them to keep connected via social media.
+
+        * See the 'Footer' Section Screenshot below:
+
+        <img src="assets/imagesfolder/footer.JPG">
+
+&nbsp; 
 
 * History of Olumo Rock Page
 
@@ -74,6 +91,8 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
     <img src="assets/imagesfolder/olumoRockHistory1.JPG">
     <img src="assets/imagesfolder/olumoRockHistory2.JPG"> 
+
+&nbsp; 
 
 * Gallery Page
 
@@ -88,6 +107,8 @@ It is designed to be responsive on all device sizes and accessible on a range of
     <img src="assets/imagesfolder/galleryImage5.JPG">
     <img src="assets/imagesfolder/galleryImage6.JPG">
 
+&nbsp; 
+
 * Contact Us Page
 
     * This page consists of two sections: the 'Contact Details' and the 'Query/Feedback' form section.  The Contact Details section provides the Phone number, Office and Email address of the website owner christYmet so that users who may need it can access it easily.
@@ -96,9 +117,9 @@ It is designed to be responsive on all device sizes and accessible on a range of
     * See the 'Contact Us' Page Screenshot below:
 
     <img src="assets/imagesfolder/contact1.JPG">
-
     <img src="assets/imagesfolder/contact2.JPG">
 
+&nbsp; 
 
 User Experience (UX)
 
@@ -130,19 +151,23 @@ User Experience (UX)
 
         *  Typography
 
-            * The Web Safe Fonts format (WOFF) was repeatedly used on every page of this website but with variations in sizes and font weights. The source provided is src: url(sansation_light.woff). This font is one of the most common and frequently used web safe fonts in HTML and most browsers recognise it.
+            * Google's 'Lora' typeface was repeatedly used on every page of this website but with variations in sizes and font weights. Lora is a well-balanced contemporary serif and it is a text typeface with moderate contrast well suited for body text. The source is: url('https://fonts.googleapis.com/css2?family=Lora&display=swap'). This font is one of the most common and frequently used web safe fonts in HTML and most browsers recognise it.
+
 
         * Imagery
 
-            * Imagery is important. The large image of the Olumo Rock is used to capture the users imagination and attract them to visit the tourist centre.  It is designed to take up almost the full width of the 'Home' Page to make it striking and catch the user's attention.  Also, the Gallery Page consists of a wide range of pictures for users to view and enjoy.
+            * Imagery is important. The large image of the Olumo Rock is used to capture the users imagination and attract them to visit the tourist centre.  It is designed to take up almost the full width of the 'Home' Page to make it striking and catch the user's attention.  Also, the Gallery Page consists of a wide range of pictures for users to view and be inspired for a visit and also enjoy.
 
         * Wireframes
 
-            * The tool used to design the prototype for this website is uizard. To view the prototype for Home, History of Olumo Rock, Gallery and Contact Us Pages, click [here](https://app.uizard.io/prototypes/d9LEdo097Ph8RZGqE0XX)
+            * The tool used to design the prototype for this website is uizard. To view the prototype for Home, History of Olumo Rock, Gallery and Contact Us Pages, click [here](https://app.uizard.io/prototypes/d9LEdo097Ph8RZGqE0XX) or view below:
 
-            
+            <img src="wireframes/homePage.jpg">
+            <img src="wireframes/historyPage.jpg">
+            <img src="wireframes/galleryPage.jpg">
+            <img src="wireframes/contactUsPage.jpg">
 
-
+&nbsp;      
 
 Technologies Used
 
@@ -152,24 +177,29 @@ Technologies Used
 
     * CSS3
 
+&nbsp; 
+
 * Tools Used
 
-    * uizard wireframe for prototyping
+    * uizard wireframe for prototyping all the four pages of the website.
 
-Issues Encountered
+    * snipping tool to capture screenshots of validator results, website pages and images used in the README file.
 
+* Unfixed bugs
 
+    * On the Home Page, the 'Welcome' section is not aligned properly when viewed on a smartphone, tried fixing it but due to time constraint on submission deadline, I could not further resolve the bug.
 
+* Issues Encountered
 
+    * Mastering and referencing the file paths correctly in my html code and readme file was a bit daunting and confusing at the start but with the help of my cohort facilitator and knowledge gained during the masterclass session, I got over it and everything went on smoothly.
 
-
-
+    * While using the terminal, the $ prompt disappeared so I got stuck on how to exit and return back to the promt and this threw me off balance for a while but after doing an online google search, I found the command to use (i.e press q) which was a relief and within a short while, I was back on track.
 
 Frameworks, Libraries and Programs Used
 
-1. sansation_light.woff Web Open Font Format (WOFF)
+1. Google Fonts
 
-    * This Font was used on all pages throughout the website creation but in different styles and sizes. The 'name' values for the font are first defined within the @font-face rule which are 'myFirstFont' and 'myBodyFont' and then point to the font file. The name of the font (i.e myFirstFont) will then be referred to through the font-family property before it can be used for an HTML element.
+    * Google Font was used to import the 'Lora' font into the style.css file using "@import" statement with the font's url and then used on all pages throughout the website creation but in different styles and sizes. It is then referred to through the use of "font-family" property before it can be effected on any HTML element.
 
 2. Git
 
@@ -191,23 +221,33 @@ Frameworks, Libraries and Programs Used
 
     * uizard was used to create the wireframes used during the design process.
 
-Testing
+## Testing
 
 The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 *  W3C Markup Validator 
 
-    * Home Page [Result]() 
+    * Home Page Result:
 
-    * History of Olumo Rock Page [Result]()
+    <img src="validatorCheckerResults/homePage.JPG"> 
 
-    * Gallery Page [Result]()
+    * History of Olumo Rock Page Result:
 
-    * Contact Us Page [Result]()
+    <img src="validatorCheckerResults/historyPage.JPG"> 
+
+    * Gallery Page Result:
+
+    <img src="validatorCheckerResults/galleryPage.JPG"> 
+
+    * Contact Us Page Result:
+
+    <img src="validatorCheckerResults/contactUsPage.JPG"> 
 
 * W3C CSS Validator
 
-    * style.css Result [Result]()
+    * style.css Result Result:
+
+    <img src="validatorCheckerResults/cssStyle.JPG"> 
 
 Testing User Stories from User Experience (UX) Section
 
@@ -237,18 +277,47 @@ Testing User Stories from User Experience (UX) Section
 
     iii. As a First Time Visitor, I want to lok for testimonials to understand what their users think of them and also want to locate their social media links to see their following on social media to determine how trusted and known they are.
 
-    a. The user can scroll to the bottom of any page on the site to locate social media links in the footer.
+        a. The user can scroll to the bottom of any page on the site to locate social media links in the footer.
 
-    b. On the "Contact Us" page, additional ways of getting in touch are provided there. 
+        b. On the "Contact Us" page, additional ways of getting in touch are provided there. 
 
 * Returning Visitor Goal  
 
-    i. As a Returning Visitor,
+    i. As a Returning Visitor, I want to find out if any important information such as opening hours, enrty fee, parking availability, direction details etc. has been updated.
+
+        a. The user can easily find the information needed on the appropriate page since they are displayed clearly with meaningful headings and captions in order to avoid ambiguity which can lead to confusion or misinformation. 
+
+        b. In addition, the user can go to the 'Contact Us' page to get the tourism board's contact details such as office address, phone number and email address or drop a query in the Query/Feedback section of the page.
+
+    ii. As a Returning Visitor, I want to find the best way to get in touch with the tourist center management on any enquiry or feedback I may have.
+
+        a. The user can make use of the 'Contact Us' link on the navigation bar which can be found at the top of each page for easy access and is clearly highlighted in lime green when the mouse is hovered on it.
+
+        b. When a user clicks on the 'Contact Us' link, it takes him to the contact us page where the contact details of the board and an enquiry/feedback form are provided so he can choose which one to reach them on. 
+
+    iii. As a Returning Visitor, I want to connect to the site's social media platforms in order to give feedbacks,
 
         
 
+*  Further Testing
+
+    * The website was tested on Google chrome, Microsoft Edge, Opera and Mozilla firefox browsers for compatibility. 
+    
+    Testing was done to ensure that all pages were linked correctly.
+
+    * 
 
 
+
+
+# Deployment
+
+
+
+
+View the live project [here](https://eb0ny-april14.github.io/rockhistory/)
+
+&nbsp; 
 
 
 
