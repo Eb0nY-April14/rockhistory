@@ -293,24 +293,45 @@ Testing User Stories from User Experience (UX) Section
 
         a. The user can make use of the 'Contact Us' link on the navigation bar which can be found at the top of each page for easy access and is clearly highlighted in lime green when the mouse is hovered on it.
 
-        b. When a user clicks on the 'Contact Us' link, it takes him to the contact us page where the contact details of the board and an enquiry/feedback form are provided so he can choose which one to reach them on. 
+        b. When a user clicks on the 'Contact Us' link, it takes him to the contact us page where the contact details of the tourism board i.e christYmet and an enquiry/feedback form are provided so he can choose which one to reach them on. 
 
-    iii. As a Returning Visitor, I want to connect to the site's social media platforms in order to give feedbacks,
-
+        c. The Contact Us page contains the office address, email address and Phone number of the tourism board.
         
+        d. The email address is set up to automatically open up the site's email and auto-fill their e-mail address in the "To" section.
+
+    iii. As a Returning Visitor, I want to connect to the site's social media platforms in order to give feedbacks and get up-to-date information about any upcoming events.
+
+        a. The footer section which can be found on every page contains links to the site's social media platforms represented with each social media platform's logo/icon for easy recognition.
+
+        b. Any link that the user clicks will open in a new tab beside this current website for closer proximity in case they need to switch from one tab to the other and to ensure that they are not taken away completely from this website but can get back easily when necessary.
+
+        c. An external link to the Ogun State Government website is provided in the mid-section of the home page where users can find information about the social media platforms for all the various departments under it in which christYmet History Website is one of them.
 
 *  Further Testing
 
     * The website was tested on Google chrome, Microsoft Edge, Opera and Mozilla firefox browsers for compatibility. 
     
-    Testing was done to ensure that all pages were linked correctly.
+    * Testing was done to ensure that all pages were linked correctly.
 
-    * 
+    * The website was viewed on a variety of devices such as desktop, laptop, iPad Pro, iPhone 6s and Huawei P smart Z android phone.
 
-
-
+    * Friends and family members were asked to review the site and documentation in order to point out any bugs and/or User eXperience (UX) issues. 
 
 # Deployment
+
+* The Project was deployed to GitHub Pages using the following steps:
+
+    * Log in to GitHub and under the "Repositories" section, click on the repository to deploy.
+
+    * At the top right of the next page, click on "Settings".
+
+    * Scroll down the "Settings" page to locate the "GitHub Pages" section.
+
+    * Under the "GitHub Pages" section, click on the "check it out here!" link.
+
+
+
+
 
 
 
