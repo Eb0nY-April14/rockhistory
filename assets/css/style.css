@@ -100,7 +100,7 @@ nav > ul, div > ul {
     display: flex;
     flex-wrap:nowrap;
     flex-direction:row;
-    justify-content: flex-end;              
+    justify-content: flex-end;            
     max-width:80%;
     font-weight: bold;   
 }
