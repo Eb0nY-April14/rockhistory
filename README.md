@@ -376,7 +376,7 @@ View the GitHub Repository [here](https://github.com/Eb0nY-April14/rockhistory)
 
     * My mentor Asandeep for continuous guidance and feedback.
 
-    * W3Schools Website for helpful resources especially with my Gallery Page.
+    * W3Schools Website for helpful resources especially with the Gallery Page.
 
 
 
