@@ -329,16 +329,63 @@ Testing User Stories from User Experience (UX) Section
 
     * Under the "GitHub Pages" section, click on the "check it out here!" link.
 
+    * From the drop-down menu under "Source" section, select the Master Branch and click on the "Save" button.
 
-
-
-
-
-
+    * The Page will automatically refresh and then provide the link/url of the deployed project. 
+    
+    * Right-click on that link and select "Open link in new tab", it will present the live website in a new tab.
 
 View the live project [here](https://eb0ny-april14.github.io/rockhistory/)
 
+
+View the GitHub Repository [here](https://github.com/Eb0nY-April14/rockhistory)
+
 &nbsp; 
+
+* Credits
+
+    * Content
+
+        * The text for the Home Page was compiled by me.
+
+        * The text for the 'History of Olumo Rock' page was obtained largely from the Ogun State Government official website and Wikipedia.
+
+        * The icons in the footer and some images were downloaded from different websites using Google Search.
+
+    * Media
+
+        * The Logo used for this website was designed by me using Wix Logo Maker. 
+
+        * The images used on the Home and Gallery Page were obtained from the following open source websites through Google Search:
+
+            * https://www.travelwaka.com/         everything-you-need-to-know-about-olumo-rock-tourist-centre/
+
+            * https://wakaholic.com/hiking-experience-olumo-rock/
+
+            * https://commons.wikimedia.org/wiki/File:Acuolpture_in_Olumo_Rock,_Ogun_State-Nigeria.jpg
+
+            * https://en.wikipedia.org/wiki/File:An_entrance_of_the_cave_in_Olumo_Rock.jpg
+
+            * https://nextbiteoflife.com/olumo-rock-abeokuta-nigeria/
+
+&nbsp; 
+
+* Acknowledgements
+
+    * Cohort Facilitator Kasia for her continuous help and support.
+
+    * My mentor Asandeep for continuous guidance and feedback.
+
+    * W3Schools Website for helpful resources especially with my Gallery Page.
+
+
+
+
+
+
+
+
+
 
 
 
