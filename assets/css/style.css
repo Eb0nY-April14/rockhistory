@@ -107,6 +107,7 @@ nav > ul, div > ul {
 
 nav ul a:hover {
     color: #00ff00;
+    border-bottom: 2px solid;
 }
 
 fieldset {
