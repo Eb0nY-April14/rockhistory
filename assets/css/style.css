@@ -8,13 +8,15 @@ html {
     box-sizing: inherit;
   }
 
+  * {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 .text-center {
     text-align: center;
 } 
-
-.ogun {
-    margin-top: 50px;
-}
  
  #sidenote {
     text-align: left;  
@@ -41,14 +43,13 @@ main img {
 }
 
 nav {
-    margin-top: 2em; 
-    padding-top: 0.5em;   
+    padding-top: 3em;   
 }
 
 /* This applies padding to individual list items in the nav bar. */
 nav li {
     padding: 0 3em;
-}
+} 
 
 .slim {
     font-style: italic;
@@ -67,9 +68,10 @@ a  {
 #header {
     background: black;
     color: #00ffff;
-    padding: 1vmin 1rem;
+    /*padding: 1vmin 1rem;*/
     text-align: left;
-    margin: 0 0 5vmin 0;
+   /* margin: 0 0 5vmin 0;*/
+    margin-bottom: 1em;
   }
 
 #header h1 {
@@ -79,16 +81,15 @@ a  {
     font-weight: bold;
   }
 
- /* This uses the @font-face rule declared above on elements & ids listed below */
-.foo p, h2, h3 {    
+ h2, h3 {        
     font-family: 'Lora', serif;
-    font-size: 1.5em;
     font-weight: bold;
  }
 
+ /* This sets the font properties of legends */
  #enquiry legend, #contact legend {
     font-family: 'Lora', serif;
-    font-size: 2em;
+    font-size: 2em; 
     font-weight: bold;
     padding-top: 5em;
  }
@@ -121,16 +122,14 @@ nav ul a:hover {
 
 fieldset {
     width: 50%;
-    background-color: #717e7e;
     margin-left: 20em;
     margin-bottom: 0.2em;
 }
 
 /* This sets the font properties of legends */
 #enquiry h2, #contact h2 { 
-    font-family: 'Lora', serif; 
-    font-style: italic;   
-}
+    font-family: 'Lora', serif;  
+} 
 
 /* This 'container' class is used to position the text
  written on the image relative to it */
@@ -152,87 +151,66 @@ fieldset {
 
   #home {
       width: 70%;
-      margin: 0 9em 1em 13em;     
-      background-color: #717e7e;
-      padding: 8em 5em 10em 5em; 
-      text-align: justify;        
-  }
-
-  #home p {
-    text-align: justify;
+      text-align: justify;  
+      margin: 0 auto;      
   }
 
   #home h2 {
     text-align: center;
+    margin-bottom: 1em;
   }
 
   th, td {
-    padding: 1em;
+    padding: 1em; 
     font-family: 'Lora', serif;
     font-size: 1.1em; 
     font-style: italic;  
 }
 
-/* The sidebyside class becomes a flex container so tables on index
-page & content on history page automatically becomes flex items 
-respectively so they can sit side by side. */ 
-.sidebyside {
-    margin:0;
-    padding:0;
-    list-style: none;
-    display: flex;
-    flex-wrap:wrap;
-    flex-direction:row;
-    justify-content: space-between;
-}
-
 /* Styling Opening Hours section */
 #left {
-    margin-left: 10em;   
-    width: 30%;  
-    background-color: #717e7e;
-    padding-right: 2em;  
-    justify-content: center;
-    align-items: center;
-    padding-left: 5em;
-    padding-bottom: 5em;
-}
-
-#left h3 {
-    padding: 0 0 0.2em 2em;
+    margin: 0 auto; 
+    width: 40%; 
 }
 
 #right h3 {
-    padding: 0 0 0.2em 6em;
+    text-align: center;    
+}
+
+#left h3 {
+    margin-right: 10em;
 }
 
 /* Styling Entry Fee section */
 #right {
-    margin-right: 10em;  
-    width: 40%; 
-    background-color: #717e7e; 
-    padding-left: 1.3em;    
-}
-
-#right table {
-    padding-left: 2em;
+    width: 55%; 
 }
 
 /* This sets the properties that the 2 ids #aboutolumorock & #facts flex items will have. */
 #aboutolumorock {
-    width: 50%; 
+    width: 70%; 
     text-align: justify; 
-    margin: 8em 2em 0 3em;               
-    background-color: #717e7e;
-    padding: 2em;
+    margin: 0 auto;
+}
+
+#aboutolumorock h2 {
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 #facts {
-    width: 40%; 
+    width: 70%; 
     text-align: justify; 
-    background-color: #717e7e;              
-    margin: 6.6em 0.5em 0 0;                                     
-    padding: 2em 2em 2em 3em;  
+    margin: 0 auto;
+    /*display: block; */
+    /*background-color: #717e7e; */             
+    /*margin: 6.6em 0.5em 0 0;                                     
+    padding: 2em 2em 2em 3em;  */
+}
+
+#facts h3 {
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
   /* This sets the width & height of each image in the gallery */ 
@@ -282,8 +260,10 @@ font & background colours & centre the text.  */
     text-align: center;  
     background-color: #000;
     color: #4dd0e1;  
-    padding-top: 10px;  
+    padding-top: 50px;  
     margin-top: 100px; 
+    margin-bottom: 0 auto;
+    padding-bottom: 20px;
 }
 
 /* For social media icons */
@@ -295,6 +275,12 @@ font & background colours & centre the text.  */
     flex-wrap: nowrap;
     justify-content: flex-end;   
     max-width:80%;
+    font-size: 30px;
+    padding-right: 1.5em;
+} 
+
+.foo p {
+    font-size: 0.8em;
 }
 
 /* This wrapper class is used to wrap the elements they are used with
@@ -313,6 +299,11 @@ body {
 
 #contact h2, #enquiry h2, #contact, #enquiry {
     font-family: 'Lora', serif;
+}
+
+textarea {
+    vertical-align: top;
+    margin: 1em 0;
 }
 
 #aboutolumorock p, #facts, .btn, p, div.desc {
@@ -355,6 +346,8 @@ body {
     font-family: 'Lora', serif;
     border-radius: 6px;
     font-style: italic;
+    padding: 0 1em;
+    margin: 0 auto;
 }
 
 /* This styles the 'external links' button  */
@@ -365,7 +358,7 @@ body {
     font-size: 1.5em; 
     border-color: rgba(85, 85, 85, 0.2); 
     background-color: #000;                           
-    padding: 1px;
+    padding: 0 15px;       /*1px; */
     margin-bottom: 1px;
     border-radius: 10px;
     font-weight: bold;
@@ -376,6 +369,11 @@ body {
 #extLinkBtn:hover, #extLinkBttn:hover {                     
     background-color: #052a4b;
     color: #ff1493;
+}
+
+.ogun {
+    margin-top: 2em;
+    margin-bottom: 20em;
 }
 
 p.way {
@@ -410,10 +408,18 @@ this button */
     *{
         box-sizing: border-box;
     }
-    .sidebyside{       /* This makes the display proprty of sidebyside class change from flex to block if the
-                                condition above is met. */ 
-        display: block;
-    }
+   
+/* This makes the display property of sidebyside class change from block to flex if the
+    condition innthe media query above is met. 
+    .sidebyside {
+        margin:0;
+        padding:0;
+        list-style: none;
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction:row;
+        justify-content: space-between;
+    } */
 
     #left{              /* Adjusts the width (size) & margins of left & right classes if condition above is met. */
         width:50%;
@@ -425,28 +431,47 @@ this button */
     }
 }
 
+@media screen and (max-width: 999px) {
+    #left table {
+        margin-bottom: 2em;
+    }
+
+    #left h3 {
+        margin-left: 4em;
+    }
+} 
+
 /* Media Query that apply the set of rules below if screen size is 700px or less */
 @media screen and (max-width: 700px) {
     .responsive {       /* This rule is released to the responsive class on gallery page if condition above is met*/
       width: 49.99999%;
       margin: 6px 0;
     }
-    #left{           /* This rule changes the size of left & right class when the condition is met. */
+   /* #left{           /* This rule changes the size of left & right class when the condition is met. 
         width:80%; 
         margin:0 auto;
     }
     #right{
         width:80%; 
         margin:0 auto;
-    }
+    } */
     fieldset{       
         margin:0 auto;
     }
+
+    /*.sidebyside{       /* This makes the display proprty of sidebyside class change from flex to block if the
+                            condition above is met.  
+        display: block;
+} */
    
     #home {           /* margin-left is reduced */
         width: 40%; 
         margin: 0 auto;  /*  0 9em 1em 6em; */
     } 
+
+    #home p {
+        text-align: center;
+      } 
 }
 /* Media Query is applied to the nav bar when screen
  size is 600px or less, it changes the link's display 
@@ -456,7 +481,8 @@ this button */
         display: block;
         margin: 0.5em;
         background-color: black; 
-        border: 2px solid;
+        font-size: 0.8em;
+        /*border: 2px solid; */
     } 
 
     /* This styles the paragraph of texts on the gallery page. */
@@ -485,6 +511,34 @@ this button */
         margin:0 auto;
     }
   }
+
+  @media screen and (min-width: 1000px) {
+      /* This makes the display property of sidebyside class change from block to flex if the
+    condition innthe media query above is met. */
+    .sidebyside {
+        margin:0;
+        padding:0;
+        list-style: none;
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction:row;
+        justify-content: space-between;
+    }
+
+    #left h3 {
+        text-align: center;
+    }
+
+    #aboutolumorock{              /* Adjusts the width (size) & margins of left & right classes if condition above is met. */
+        width:45%;
+        margin:0 auto;
+    }
+    #facts{
+        width:45%;
+        margin:0 auto;
+    }
+  }
+  
   
   /* This code block clears the grids of rows & columns used in the gallery images so
   that the texts within the <p> tag can default to its normal flow (i.e block) */
