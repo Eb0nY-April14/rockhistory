@@ -46,7 +46,7 @@ nav {
     padding-top: 3em;   
 }
 
-/* This applies padding to individual list items in the nav bar. */
+/* This applies padding to individual list items in the nav bar to space them out. */
 nav li {
     padding: 0 3em;
 } 
@@ -249,7 +249,7 @@ image relative to it */
 .responsive{
     width: 24.999999%;
     border: 1.5px solid #000;    
-    margin-top: 2em;    /*1em; */
+    margin-top: 2em;    
 }
 
 /* This highlights the border around a picture in the gallery when hovered upon */
@@ -435,7 +435,6 @@ this button */
     nav > ul {
         display: block;
         margin: 0.5em;
-        /*background-color: #000; */
         font-size: 0.8em;
     } 
 
@@ -453,9 +452,9 @@ this button */
       width: 100%;
     }
      /* cc added body and  #left and #right below */
-     /*body{
+     body{
          min-width: 350px; 
-    }*/
+    }
 
     .btn {
         margin-left: 5em;

@@ -61,6 +61,16 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
         <img src="assets/imagesfolder/openHrsEntryFee.JPG">
 
+    * Video Section
+
+        * There is an embedded video about Olumo Rock which captures what visitors will enjoy when they visit the centre. The video was taken from YouTube and embedded into the home page using the <iframe> tag. 
+
+        See the 'video' Section Screenshot below:
+
+        <img src="assets/imagesfolder/olumoRockVideo.JPG">
+
+         &nbsp; 
+
     * Direction and Further Enquiries Section
 
          * In this section, a user is presented with two external links which are Google Map and Ogun State Government Tourism board website and can access them by the use of the 'Click Me' buttons provided on the page. When any of the buttons is clicked, it will either take them to Google Map site where the location and direction to the tourist centre is, and they can use that as a guide to finding the centre or the State tourism board site for further enquiries.
@@ -355,6 +365,8 @@ View the GitHub Repository [here](https://github.com/Eb0nY-April14/rockhistory)
     * Media
 
         * The Logo used for this website was designed by me using Wix Logo Maker. 
+
+        * The video used on the home page was made by Google Arts & Culture and taken from YouTube.
 
         * The images used on the Home and Gallery Page were obtained from the following open source websites through Google Search:
 
