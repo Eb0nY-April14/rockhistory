@@ -65,7 +65,7 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
         * There is an embedded video about Olumo Rock which captures what visitors will enjoy when they visit the centre. The video was taken from YouTube and embedded into the home page using the <iframe> tag. 
 
-        See the 'video' Section Screenshot below:
+        See the 'Video' Section Screenshot below:
 
         <img src="assets/imagesfolder/olumoRockVideo.JPG">
 
