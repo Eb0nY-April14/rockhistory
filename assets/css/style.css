@@ -68,30 +68,20 @@ a  {
 #header {
     background: black;
     color: #00ffff;
-    /*padding: 1vmin 1rem;*/
     text-align: left;
-   /* margin: 0 0 5vmin 0;*/
     margin-bottom: 1em;
   }
 
 #header h1 {
     margin: 0;
     font-size: 1.5rem;
-    font-family: 'Lora', serif;
+    font-family: 'Lora', sans-serif;
     font-weight: bold;
   }
 
  h2, h3 {        
-    font-family: 'Lora', serif;
+    font-family: 'Lora', sans-serif;
     font-weight: bold;
- }
-
- /* This sets the font properties of legends */
- #enquiry legend, #contact legend {
-    font-family: 'Lora', serif;
-    font-size: 2em; 
-    font-weight: bold;
-    padding-top: 5em;
  }
 
 nav > ul {       
@@ -108,7 +98,6 @@ nav > ul {
 
 nav ul a:hover {
     color: #00ff00;
-    border-bottom: 2px solid;
 }
 
 .fa {
@@ -120,6 +109,7 @@ nav ul a:hover {
     opacity: 0.7;
 }
 
+/* Styling Contact Us Page */
 fieldset {
     width: 50%;
     margin-left: 20em;
@@ -127,27 +117,37 @@ fieldset {
 }
 
 /* This sets the font properties of legends */
-#enquiry h2, #contact h2 { 
-    font-family: 'Lora', serif;  
-} 
+#enquiry legend, #contact legend {
+    font-family: 'Lora', sans-serif;
+    font-size: 2em; 
+    font-weight: bold;
+    padding-top: 5em;
+ }
 
-/* This 'container' class is used to position the text
- written on the image relative to it */
+/* This sets the font properties of legends */ /*#contact h2, #enquiry h2,*/
+ #contact, #enquiry {
+    font-family: 'Lora', sans-serif;
+}
+
+#enquiry h2 {
+    margin-bottom: 0.5em;
+}
+
+#contact h2 {
+    margin-bottom: 0.3em;
+}
+
+textarea {
+    vertical-align: top;
+    margin: 1em 0;
+}
+
+/* This 'container' class is used to position the 
+image relative to it */
 .container {
     position: relative;
     text-align: center;
-    color: white;
 }
-
-   /* This 'message' class is used to place text on the 
-   image of the rock */
-.message {
-    position: absolute;
-    bottom: 10%;
-    right: 20%;
-    padding: 30px;
-    font-size: 3em;
-  }  
 
   #home {
       width: 70%;
@@ -160,31 +160,48 @@ fieldset {
     margin-bottom: 1em;
   }
 
+/* Styling Opening Hours & Entry Fee sections */
   th, td {
     padding: 1em; 
-    font-family: 'Lora', serif;
+    font-family: 'Lora', sans-serif;
     font-size: 1.1em; 
     font-style: italic;  
 }
 
-/* Styling Opening Hours section */
-#left {
-    margin: 0 auto; 
-    width: 40%; 
+.side {
+    display: block;
+    margin-left: 20em;
 }
 
-#right h3 {
-    text-align: center;    
+.side h3 {
+    margin-left: 5em;
 }
 
-#left h3 {
-    margin-right: 10em;
+.side#left {
+    margin-left: 20em;
 }
 
-/* Styling Entry Fee section */
-#right {
-    width: 55%; 
+#left table {
+    margin-bottom: 2em;
 }
+
+.center {
+    margin: 0 auto;
+    width: 60%;
+    padding: 10px;
+    margin-top: 5em;
+}
+
+/* Styling #aboutolumorock & #facts id */
+.sidebyside {
+    margin:0;
+    padding:0;
+    list-style: none;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: space-between;
+} 
 
 /* This sets the properties that the 2 ids #aboutolumorock & #facts flex items will have. */
 #aboutolumorock {
@@ -202,10 +219,6 @@ fieldset {
     width: 70%; 
     text-align: justify; 
     margin: 0 auto;
-    /*display: block; */
-    /*background-color: #717e7e; */             
-    /*margin: 6.6em 0.5em 0 0;                                     
-    padding: 2em 2em 2em 3em;  */
 }
 
 #facts h3 {
@@ -236,23 +249,13 @@ fieldset {
 .responsive{
     width: 24.999999%;
     border: 1.5px solid #000;    
-    margin-top: 1em;
+    margin-top: 2em;    /*1em; */
 }
 
 /* This highlights the border around a picture in the gallery when hovered upon */
 .responsive:hover {
     border: 2px solid #4dd0e1;        
   }  
-
-/* This puts a margin to separate the footer area from the form area */
-/*footer {
-    margin-top: 100px;
-    padding-top: 20px;   
-} */
-
-/*footer > h2 {
-    padding-bottom: 50px;
-} */
 
 /* This foo class targets the footer area to style its 
 font & background colours & centre the text.  */   
@@ -293,20 +296,12 @@ font & background colours & centre the text.  */
 }
 
 body {
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
-    font-family: 'Lora', serif;
+    background-color:  rgba(255,0,0,0.7); 
+    font-family: 'Lora', sans-serif;
 }
 
-#contact h2, #enquiry h2, #contact, #enquiry {
-    font-family: 'Lora', serif;
-}
 
-textarea {
-    vertical-align: top;
-    margin: 1em 0;
-}
-
-#aboutolumorock p, #facts, .btn, p, div.desc {
+#aboutolumorock p, #facts, p, div.desc {
     font-size: 1.2em;
     font-style:italic;
  }
@@ -318,17 +313,17 @@ textarea {
 /* This styles the 'Back to top' button  */
 #myBtn {
     color: white;
-    position: fixed;
+    position: fixed; 
     bottom: 10px;
     float: right;
     right: 18.5%;
-    left: 94.25%;
-    max-width: 5%;    
+    left: 90.25%;
+    max-width: 8%;    
     width: 100%;
-    font-size: 1.2em; 
+    font-size: 0.8em; 
     border-color: rgba(85, 85, 85, 0.2); 
     background-color: #000;                           
-    padding: 1.5px;
+    padding: 2px;
     margin-bottom: 1px;
     border-radius: 6px;
     font-weight: bold;
@@ -343,11 +338,13 @@ textarea {
 
 /* This rule styles the submit button on contactUsForm Page. */
 .btn {
-    font-family: 'Lora', serif;
+    font-family: 'Lora', sans-serif;
     border-radius: 6px;
     font-style: italic;
     padding: 0 1em;
-    margin: 0 auto;
+    margin: 0 auto; 
+    font-size: 1.1em;
+    margin-left: 5em;
 }
 
 /* This styles the 'external links' button  */
@@ -380,13 +377,6 @@ p.way {
     margin-top: 8em;
 }
 
-/* These lines of code target the images used as icons for
- social media links on the footer section. */ 
-/*.foo ul li img  {   
-    width: 15%;  
-    height: 50px;   
-} */
-
 .bold {
     font-weight: bold;
 }
@@ -403,43 +393,11 @@ this button */
    color: lightpink;
 }
 
-/* Media Query that applies these set of rules if screen size is 1150px or less. */
-@media all and (max-width:1150px){
-    *{
-        box-sizing: border-box;
-    }
-   
-/* This makes the display property of sidebyside class change from block to flex if the
-    condition innthe media query above is met. 
-    .sidebyside {
-        margin:0;
-        padding:0;
-        list-style: none;
-        display: flex;
-        flex-wrap:wrap;
-        flex-direction:row;
-        justify-content: space-between;
-    } */
-
-    #left{              /* Adjusts the width (size) & margins of left & right classes if condition above is met. */
-        width:50%;
-        margin:0 auto;
-    }
-    #right{
-        width:50%;
-        margin:0 auto;
+@media screen and (max-width: 730px) {
+    iframe {
+        width: 100%;
     }
 }
-
-@media screen and (max-width: 999px) {
-    #left table {
-        margin-bottom: 2em;
-    }
-
-    #left h3 {
-        margin-left: 4em;
-    }
-} 
 
 /* Media Query that apply the set of rules below if screen size is 700px or less */
 @media screen and (max-width: 700px) {
@@ -447,32 +405,29 @@ this button */
       width: 49.99999%;
       margin: 6px 0;
     }
-   /* #left{           /* This rule changes the size of left & right class when the condition is met. 
-        width:80%; 
-        margin:0 auto;
-    }
-    #right{
-        width:80%; 
-        margin:0 auto;
-    } */
+
     fieldset{       
         margin:0 auto;
     }
 
-    /*.sidebyside{       /* This makes the display proprty of sidebyside class change from flex to block if the
-                            condition above is met.  
-        display: block;
-} */
-   
-    #home {           /* margin-left is reduced */
+    #home {           
         width: 40%; 
-        margin: 0 auto;  /*  0 9em 1em 6em; */
+        margin: 0 auto;  
     } 
 
     #home p {
         text-align: center;
       } 
-}
+
+      *{
+        box-sizing: border-box;
+    }
+
+    section.side {
+        margin-left: 3em;
+    }
+} 
+    
 /* Media Query is applied to the nav bar when screen
  size is 600px or less, it changes the link's display 
  property from flex to block.  */  
@@ -480,9 +435,8 @@ this button */
     nav > ul {
         display: block;
         margin: 0.5em;
-        background-color: black; 
+        /*background-color: #000; */
         font-size: 0.8em;
-        /*border: 2px solid; */
     } 
 
     /* This styles the paragraph of texts on the gallery page. */
@@ -499,23 +453,47 @@ this button */
       width: 100%;
     }
      /* cc added body and  #left and #right below */
-     body{
+     /*body{
          min-width: 350px; 
-    }
-     #left{
-        width:100%;
-        margin:0 auto;
-    }
-    #right{
-        width:100%;
-        margin:0 auto;
-    }
-  }
+    }*/
 
+    .btn {
+        margin-left: 5em;
+        font-size: 0.8em;
+    }
+
+    #enquiry legend, #contact legend {
+        font-size: 1em; 
+     }
+
+     fieldset p {
+        font-size: 0.8em; 
+     }
+
+     #enquiry input {
+         margin-bottom: 2em;
+         width: 60%;
+     }
+
+     textarea {
+        width: 60%;
+    }
+}
+
+/* This changes the display property of sidebyside & side classes from block to
+flex if the condition in the media query above is met. */
   @media screen and (min-width: 1000px) {
-      /* This makes the display property of sidebyside class change from block to flex if the
-    condition innthe media query above is met. */
     .sidebyside {
+        margin:0;
+        padding:0;
+        list-style: none;
+        display: flex;
+        flex-wrap:nowrap;
+        flex-direction:row;
+        justify-content: space-between;
+    }
+
+    .side {
         margin:0;
         padding:0;
         list-style: none;
@@ -523,13 +501,9 @@ this button */
         flex-wrap:wrap;
         flex-direction:row;
         justify-content: space-between;
-    }
+    } 
 
-    #left h3 {
-        text-align: center;
-    }
-
-    #aboutolumorock{              /* Adjusts the width (size) & margins of left & right classes if condition above is met. */
+    #aboutolumorock{     
         width:45%;
         margin:0 auto;
     }
@@ -538,7 +512,6 @@ this button */
         margin:0 auto;
     }
   }
-  
   
   /* This code block clears the grids of rows & columns used in the gallery images so
   that the texts within the <p> tag can default to its normal flow (i.e block) */
