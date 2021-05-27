@@ -123,6 +123,7 @@ It is designed to be responsive on all device sizes and accessible on a range of
 
     * This page consists of two sections: the 'Contact Details' and the 'Query/Feedback' form section.  The Contact Details section provides the Phone number, Office and Email address of the website owner christYmet so that users who may need it can access it easily.
     The Query/Feedback section is an HTML form that allow users to send their queries and/or give feedbacks so that the website owner can use this information to further improve on the services being provided. 
+    At the moment, when a user fills the form and hits the submit button, there's no system in place at the backend to process the data submitted by the user so since there is no implementation for that yet and to forestall the system from throwing a 405 error, the form was made to reset itself instead. It is hoped that the backend will be implemented in the near  future.
 
     * See the 'Contact Us' Page Screenshot below:
 
@@ -168,18 +169,18 @@ User Experience (UX)
 
             * Imagery is important. The large image of the Olumo Rock is used to capture the users imagination and attract them to visit the tourist centre.  It is designed to take up almost the full width of the 'Home' Page to make it striking and catch the user's attention.  Also, the Gallery Page consists of a wide range of pictures for users to view and be inspired for a visit and also enjoy.
 
-        * Wireframes
+# Wireframes
 
-            * The tool used to design the prototype for this website is uizard. To view the prototype for Home, History of Olumo Rock, Gallery and Contact Us Pages, click [here](https://app.uizard.io/prototypes/d9LEdo097Ph8RZGqE0XX) or view below:
+ The tool used to design the prototype for this website is uizard. To view the prototype for Home, History of Olumo Rock, Gallery and Contact Us Pages, click [here](https://app.uizard.io/prototypes/d9LEdo097Ph8RZGqE0XX) or view below:
 
-            <img src="wireframes/homePage.jpg">
-            <img src="wireframes/historyPage.jpg">
-            <img src="wireframes/galleryPage.jpg">
-            <img src="wireframes/contactUsPage.jpg">
+    <img src="wireframes/homePage.jpg">
+    <img src="wireframes/historyPage.jpg">
+    <img src="wireframes/galleryPage.jpg">
+    <img src="wireframes/contactUsPage.jpg">
 
 &nbsp;      
 
-Technologies Used
+# Technologies Used
 
 * Languages Used
 
@@ -195,11 +196,7 @@ Technologies Used
 
     * snipping tool to capture screenshots of validator results, website pages and images used in the README file.
 
-* Unfixed bugs
-
-    * On the Home Page, the 'Welcome' section is not aligned properly when viewed on a smartphone, tried fixing it but due to time constraint on submission deadline, I could not further resolve the bug.
-
-* Issues Encountered
+* Issues Encountered and Resolved
 
     * Mastering and referencing the file paths correctly in my html code and readme file was a bit daunting and confusing at the start but with the help of my cohort facilitator and knowledge gained during the masterclass session, I got over it and everything went on smoothly.
 
@@ -233,7 +230,7 @@ Frameworks, Libraries and Programs Used
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no syntax errors in the project and prettier code formatter was used to format the code for proper code indentation.
 
 *  W3C Markup Validator 
 
