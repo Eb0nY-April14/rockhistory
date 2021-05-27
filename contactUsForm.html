@@ -1,96 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Details and Enquiry Form</title>
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <header id="header">
-        <img src="assets/imagesfolder/newWebsiteLogo.png" alt="A Logo of my Website.">
-        <h1 class="slim">Olumo Rock History</h1> 
-        <div class="wrapper">
-            <nav>      
-                <ul>
-                    <li><a href="index.html" aria-label="Go to
-                         the Home Page">Home</a></li>
-    
-                    <li><a href="history.html" aria-label="Go to
-                         the History Page">Rock History</a></li>
-    
-                    <li><a href="gallery.html" aria-label="Go to 
-                        the Gallery Page">Gallery</a></li>
-    
-                    <li><a href="contactUsForm.html" aria-label="Go
-                         to the Contact Us Page">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>    
-      </header>
+      <img
+        src="assets/imagesfolder/newWebsiteLogo.png"
+        alt="A Logo of my Website."
+      />
+      <h1 class="slim">Olumo Rock History</h1>
+      <div class="wrapper">
+        <nav>
+          <ul>
+            <li>
+              <a
+                href="index.html"
+                aria-label="Go to
+                         the Home Page"
+                >Home</a
+              >
+            </li>
 
-<section id="contact" class="text-center">
-        <fieldset>
-            <legend class="bold"><h2 class="slim">Contact Details</h2></legend>
-            <p><strong>Phone:</strong> +234831819265</p>
-            <p><strong>Office:</strong> christYmet House,<br>42 Park 
-                Avenue, GRA<br>Abeokuta<br>Ogun State<br>Nigeria.</p>
-            <p><strong>Email: </strong><a class="external" href="mailto:christYmet@gmail.com">christYmet@gmail.com</a></p>
-        </fieldset>
-</section>
+            <li>
+              <a
+                href="history.html"
+                aria-label="Go to
+                         the History Page"
+                >Rock History</a
+              >
+            </li>
 
-    <form id="enquiry" class="text-center" action="contactUsForm.html" method="POST">
-        <fieldset>
-            <legend class="bold"><h2 class="slim">Your Query/Feedback</h2></legend>
-            <p>
-                <label for="cust"><strong>Name:</strong></label>
-                <input type="text" name="cust-name" id="cust" required>
-            </p>
+            <li>
+              <a
+                href="gallery.html"
+                aria-label="Go to 
+                        the Gallery Page"
+                >Gallery</a
+              >
+            </li>
 
-            <p>
-                <label for="email"><strong>Email:</strong></label>
-                <input type="text" name="cust-email" id="email" required>
-            </p>
-            
-            <p>
-                <label for="comment"><strong>Comment:</strong></label>
-                <textarea name="cust-comment" id="comment" cols="30" rows="10" required>
-                </textarea>
-            </p>
+            <li>
+              <a
+                href="contactUsForm.html"
+                aria-label="Go
+                         to the Contact Us Page"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-            <p>
-                <button class="btn bold" type="submit">Submit</button>
-            </p> 
-        </fieldset>
+    <section id="contact" class="text-center">
+      <fieldset>
+        <legend class="bold"><h2 class="slim">Contact Details</h2></legend>
+        <p><strong class="align">Phone: </strong> +234831819265</p>
+        <p>
+          <strong class="align">Office: </strong> Block B <br />
+          New Secretariat Complex, <br />Abeokuta, Ogun State<br />Nigeria.
+        </p>
+        <p>
+          <strong class="align">Email: </strong
+          ><a class="external" href="mailto:christYmet@gmail.com"
+            >christYmet@gmail.com</a
+          >
+        </p>
+      </fieldset>
+    </section>
+
+    <form id="enquiry" class="text-center" onclick="reset">
+      <fieldset>
+        <legend class="bold"><h2 class="slim">Your Query/Feedback</h2></legend>
+        <p>
+          <label for="cust"><strong>Name:</strong></label>
+          <input type="text" name="cust-name" id="cust" required />
+        </p>
+
+        <p>
+          <label for="email"><strong>Email:</strong></label>
+          <input type="text" name="cust-email" id="email" required />
+        </p>
+
+        <p>
+          <label for="comment"><strong>Comment:</strong></label>
+          <textarea
+            name="cust-comment"
+            id="comment"
+            cols="30"
+            rows="10"
+            required
+          >
+          </textarea>
+        </p>
+
+        <p>
+          <button class="queryBtn bold" type="submit">Submit</button>
+        </p>
+      </fieldset>
     </form>
-<br>
+    <br />
 
-<!-- Footer section that contains the Social Media links -->
-<footer class="foo">
-    <div class="wrapper">   
+    <!-- Footer section that contains the Social Media links -->
+    <footer class="footer">
+      <div class="wrapper">
         <ul>
-            <li><a href="https://www.facebook.com/christiana.yetunde.temiolaadeboye" class="fa fa-facebook" 
-                target="_blank"></a></li>
+          <li>
+            <a
+              href="https://www.facebook.com/ogsgofficial?_rdc=1&_rdr"
+              class="fa fa-facebook"
+              target="_blank"
+            ></a>
+          </li>
 
-            <li><a href="https://twitter.com/CTemiola" class="fa fa-twitter"
-                target="_blank"></a></li>
-                
-            <li><a href="https://www.instagram.com/laratemi14/" class="fa fa-instagram"
-                target="_blank"></a></li>
-
-            <li><a href="https://www.pinterest.ie/christianayetun/" class="fa fa-pinterest"
-                target="_blank"></a></li>
+          <li>
+            <a
+              href="https://twitter.com/OGSGofficial"
+              class="fa fa-twitter"
+              target="_blank"
+            ></a>
+          </li>
         </ul>
-    </div>
-<br>
+      </div>
+      <br />
 
-   <p> &copy;2021 Christiana Temiola <br>
-    All rights reserved.</p>
-</footer>  
+      <p>
+        &copy;2021 Christiana Temiola <br />
+        All rights reserved.
+      </p>
+    </footer>
 
-<a id="myBtn" href="#top">Back to top</a>  
- 
-</body>
+    <a id="topBtn" href="#top">Back to top</a>
+  </body>
 </html>
