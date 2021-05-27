@@ -1,571 +1,606 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
-  }
-
-  * {
-    margin: 0;
-    padding: 0;
-    border: none;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-.text-center {
-    text-align: center;
-} 
- 
- #sidenote {
-    text-align: left;  
-    margin-left: 5em;
+/************************************************************************/
+/*              GENERAL STYLES APPLIED TO ALL PAGES                     */
+/************************************************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
- .wrapper {
-    width:100%;
-    margin: 0 auto;
-    list-style: none;
-    padding-left: 10%;  
+body {
+  background-color: rgba(255, 0, 0, 0.7);
+  font-family: "Lora", sans-serif;
 }
 
-main img {
-    margin-top: 3em;   
-    margin-bottom: 5em;  
-    width: 80%;
-    max-width: 100%;
+/* This piece of code style the header section on all pages. */
+#header {
+  background: black;
+  color: #00ffff;
+  text-align: left;
+  margin-bottom: 1em;
 }
 
-.ogun img {
-    width: 2%;
-    margin-top: 1em;
+#header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: "Lora", sans-serif;
+  font-weight: bold;
+  margin-left: 0.5em;
 }
 
 nav {
-    padding-top: 3em;   
+  padding-top: 3em;
+}
+
+a {
+  color: #00ced1;
+  text-decoration: none;
+  font-style: italic;
+  font-family: "Lora", serif;
+  font-size: 1.5em;
 }
 
 /* This applies padding to individual list items in the nav bar to space them out. */
 nav li {
-    padding: 0 3em;
-} 
-
-.slim {
-    font-style: italic;
+  padding: 0 3em;
 }
 
-/* This is used to style the nav links. */
-a  {
-    color:  #00ced1;  
-    text-decoration: none;
-    font-style: italic;
-    font-family: 'Lora', serif;
-    font-size: 1.5em;
-}
-
-/* This piece of code style the header section. */
-#header {
-    background: black;
-    color: #00ffff;
-    text-align: left;
-    margin-bottom: 1em;
-  }
-
-#header h1 {
-    margin: 0;
-    font-size: 1.5rem;
-    font-family: 'Lora', sans-serif;
-    font-weight: bold;
-    margin-left: 0.5em;
-  }
-
- h2, h3 {        
-    font-family: 'Lora', sans-serif;
-    font-weight: bold;
- }
-
-nav > ul {       
-    margin:0 auto;
-    padding:0;
-    list-style: none;
-    display: flex;
-    flex-wrap:nowrap;
-    flex-direction:row;
-    justify-content: flex-end;            
-    max-width:80%;
-    font-weight: bold;   
+nav > ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  max-width: 80%;
+  font-weight: bold;
 }
 
 nav ul a:hover {
-    color: #00ff00;
+  color: #00ff00;
 }
 
-.fa {
-    width: 50px;
-    text-decoration: none;
-  }
-
-  .fa:hover {
-    opacity: 0.7;
+h2,
+h3 {
+  font-family: "Lora", sans-serif;
+  font-weight: bold;
 }
 
-/* Styling Contact Us Page */
-fieldset {
-    width: 50%;
-    margin-left: 20em;
-    margin-bottom: 0.2em;
+.text-center {
+  text-align: center;
 }
 
-/* This sets the font properties of legends */
-#enquiry legend, #contact legend {
-    font-family: 'Lora', sans-serif;
-    font-size: 2em; 
-    font-weight: bold;
-    padding-top: 5em;
- }
-
-/* This sets the font properties of legends */ /*#contact h2, #enquiry h2,*/
- #contact, #enquiry {
-    font-family: 'Lora', sans-serif;
+.slim {
+  font-style: italic;
 }
 
-#enquiry h2 {
-    margin-bottom: 0.5em;
-}
-
-#contact h2 {
-    margin-bottom: 0.3em;
-}
-
-textarea {
-    vertical-align: top;
-    margin: 1em 0;
-}
-
-/* This 'container' class is used to position the 
-image relative to it */
-.container {
-    position: relative;
-    text-align: center;
-}
-
-  #home {
-      width: 70%;
-      text-align: justify;  
-      margin: 0 auto;      
-  }
-
-  #home h2 {
-    text-align: center;
-    margin-bottom: 1em;
-  }
-
-/* Styling Opening Hours & Entry Fee sections */
-  th, td {
-    padding: 1em; 
-    font-family: 'Lora', sans-serif;
-    font-size: 1.1em; 
-    font-style: italic;  
-}
-
-.side {
-    display: block;
-    margin-left: 20em;
-}
-
-.side h3 {
-    margin-left: 5em;
-}
-
-.side#left {
-    margin-left: 20em;
-}
-
-#left table {
-    margin-bottom: 2em;
+.bold {
+  font-weight: bold;
 }
 
 .center {
-    margin: 0 auto;
-    width: 60%;
-    padding: 10px;
-    margin-top: 5em;
-}
-
-/* Styling #aboutolumorock & #facts id */
-.sidebyside {
-    margin:0;
-    padding:0;
-    list-style: none;
-    display: flex;
-    flex-wrap:wrap;
-    flex-direction:row;
-    justify-content: space-between;
-} 
-
-/* This sets the properties that the 2 ids #aboutolumorock & #facts flex items will have. */
-#aboutolumorock {
-    width: 70%; 
-    text-align: justify; 
-    margin: 0 auto;
-}
-
-#aboutolumorock h2 {
-    margin-bottom: 1em;
-    margin-top: 1em;
-}
-
-#facts {
-    width: 70%; 
-    text-align: justify; 
-    margin: 0 auto;
-}
-
-#facts h3 {
-    margin-bottom: 1em;
-    margin-top: 1em;
-}
-
-  /* This sets the width & height of each image in the gallery */ 
-  div.gallery img {
-    width: 100%;
-    height: 30vh;
-  } 
-
-  /* This styles the images description */ 
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }  
-
-   /* flex container */
-   .gallery-row{
-    display:flex;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items: stretch; 
-}
-/* Use responsive class just to set width of the flex item */
-.responsive{
-    width: 24.999999%;
-    border: 1.5px solid #000;    
-    margin-top: 2em;    
-}
-
-/* This highlights the border around a picture in the gallery when hovered upon */
-.responsive:hover {
-    border: 2px solid #4dd0e1;        
-  }  
-
-/* This foo class targets the footer area to style its 
-font & background colours & centre the text.  */   
-.foo {
-    text-align: center;  
-    background-color: #000;
-    color: #4dd0e1;  
-    padding-top: 50px;  
-    margin-top: 100px; 
-    margin-bottom: auto;
-    padding-bottom: 20px;
-}
-
-/* For social media icons */
-.foo ul {  
-    margin:0; 
-    padding:0;
-    list-style: none;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-end;   
-    max-width:80%;
-    font-size: 30px;
-    padding-right: 1.5em;
-} 
-
-.foo p {
-    font-size: 0.8em;
+  margin: 0 auto;
+  width: 60%;
+  padding: 10px;
+  margin-top: 5em;
 }
 
 /* This wrapper class is used to wrap the elements they are used with
  in order to apply style.  */
 .wrapper {
-    width:100%;
-    margin: 0 auto;  
-    list-style: none;
-    padding-left: 10%;  
+  width: 100%;
+  margin: 0 auto;
+  list-style: none;
+  padding-left: 10%;
 }
 
-body {
-    background-color:  rgba(255,0,0,0.7); 
-    font-family: 'Lora', sans-serif;
+/************************************************************************/
+/*                  STYLES APPLIED TO HOME PAGE                         */
+/************************************************************************/
+
+main img {
+  margin-top: 3em;
+  margin-bottom: 5em;
+  width: 80%;
+  max-width: 100%;
 }
 
-
-#aboutolumorock p, #facts, p, div.desc {
-    font-size: 1.2em;
-    font-style:italic;
- }
-
- div.desc {
-    text-align: justify;
-}  
-
-/* This styles the 'Back to top' button  */
-#myBtn {
-    color: white;
-    position: fixed; 
-    bottom: 10px;
-    float: right;
-    right: 18.5%;
-    left: 90.25%;
-    max-width: 8%;    
-    width: 100%;
-    font-size: 0.8em; 
-    border-color: rgba(85, 85, 85, 0.2); 
-    background-color: #000;                           
-    padding: 2px;
-    margin-bottom: 1px;
-    border-radius: 6px;
-    font-weight: bold;
-    text-align:center;
+.ogun img {
+  width: 2%;
+  margin-top: 1em;
 }
 
- /* Colour of the "back to top" button changes when mouse
-  is hovered over this button */
-#myBtn:hover {                     
-    background-color: #052a4b;
+/* This 'container' class is used to position the 
+image relative to it */
+.container {
+  position: relative;
+  text-align: center;
 }
 
-/* This rule styles the submit button on contactUsForm Page. */
-.btn {
-    font-family: 'Lora', sans-serif;
-    border-radius: 6px;
-    font-style: italic;
-    padding: 0 1em;
-    margin: 0 auto; 
-    font-size: 1.1em;
-    margin-left: 5em;
+#home {
+  width: 70%;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+#home h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+/* Styling Opening Hours & Entry Fee sections */
+th,
+td {
+  padding: 1em;
+  font-family: "Lora", sans-serif;
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+.side {
+  display: block;
+  margin-left: 20em;
+}
+
+.side h3 {
+  margin-left: 5em;
+}
+
+.side#left {
+  margin-left: 20em;
+}
+
+#left table {
+  margin-bottom: 2em;
+}
+
+div.center {
+  /* To center YouTube video section */
+  text-align: center;
 }
 
 /* This styles the 'external links' button  */
-#extLinkBtn, #extLinkBttn {
-    color: white;
-    max-width: 35%;    
-    width: 100%;
-    font-size: 1.5em; 
-    border-color: rgba(85, 85, 85, 0.2); 
-    background-color: #000;                           
-    padding: 0 15px;       /*1px; */
-    margin-bottom: 1px;
-    border-radius: 10px;
-    font-weight: bold;
+#extLinkBtn,
+#extLinkBttn {
+  color: white;
+  max-width: 35%;
+  width: 100%;
+  font-size: 1.5em;
+  border-color: rgba(85, 85, 85, 0.2);
+  background-color: #000;
+  padding: 0 15px;
+  margin-bottom: 1px;
+  border-radius: 10px;
+  font-weight: bold;
 }
 
- /* Colour of the "external links" button changes when mouse
+/* Colour of the "external links" button changes when mouse
   is hovered over this button */
-#extLinkBtn:hover, #extLinkBttn:hover {                     
-    background-color: #052a4b;
-    color: #ff1493;
+#extLinkBtn:hover,
+#extLinkBttn:hover {
+  background-color: #052a4b;
+  color: #ff1493;
 }
 
 .ogun {
-    margin-top: 2em;
-    margin-bottom: 20em;
+  margin-top: 2em;
+  margin-bottom: 20em;
 }
 
 p.way {
-    margin-top: 8em;
+  margin-top: 8em;
 }
 
-.bold {
-    font-weight: bold;
+/************************************************************************/
+/*       STYLES APPLIED TO 'ROCK HISTORY' PAGE                          */
+/************************************************************************/
+
+.sidebyside {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* This sets the properties that the 2 ids #aboutolumorock & #facts flex items will have. */
+#aboutolumorock {
+  width: 70%;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+#aboutolumorock h2 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+#facts {
+  width: 70%;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+#facts h3 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+#aboutolumorock p,
+#facts,
+p {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+/************************************************************************/
+/*                  STYLES APPLIED TO GALLERY PAGE                      */
+/************************************************************************/
+
+div.gallery img {
+  /*This sets the width & height of each image in the gallery*/
+  width: 100%;
+  height: 30vh;
+}
+
+#sidenote {
+  text-align: left;
+  margin-left: 5em;
+}
+
+div.desc {
+  /* This styles the images description */
+  padding: 15px;
+  text-align: justify;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+/* flex container for all gallery images */
+.gallery-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+/* Use responsive class just to set width of the flex item */
+.responsive {
+  width: 24.999999%;
+  border: 1.5px solid #000;
+  margin-top: 2em;
+}
+
+/* This highlights the border around a picture in the gallery when hovered upon */
+.responsive:hover {
+  border: 2px solid #4dd0e1;
+}
+
+aside p {
+  margin-top: 2em;
+}
+
+/* This code block clears the grids of rows & columns used in the gallery images so
+  that the texts within the <p> tag can default to its normal flow (i.e block) */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/************************************************************************/
+/*                  STYLES APPLIED TO 'CONTACT US' PAGE                 */
+/************************************************************************/
+
+fieldset {
+  width: 50%;
+  margin-left: 20em;
+  margin-bottom: 0.2em;
+}
+
+/* This sets the font properties of legends */
+#enquiry legend,
+#contact legend {
+  font-family: "Lora", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 5em;
+}
+
+/* This sets the font properties of legends */ 
+#contact,
+#enquiry {
+  font-family: "Lora", sans-serif;
+}
+
+#contact strong.align {
+  text-align: justify;
+}
+
+#enquiry h2 {
+  margin-bottom: 0.5em;
+}
+
+#contact h2 {
+  margin-bottom: 0.3em;
+}
+
+textarea {
+  vertical-align: top;
+  margin: 1em 0;
 }
 
 .external {
-    color: rgb(100, 6, 80);
-    font-size: 1.2em;   
+  color: rgb(100, 6, 80);
+  font-size: 1.2em;
 }
 
-/* This class makes the colour of the "nav, Google map &
- social media" links changes when mouse is hovered over
-this button */
-.external:hover {  
-   color: lightpink;
+/* This class makes the colour of email link change when mouse is hovered over */
+.external:hover {
+  color: lightpink;
 }
+
+/* This rule styles the submit button on contactUsForm Page. */
+.queryBtn {
+  font-family: "Lora", sans-serif;
+  border-radius: 6px;
+  font-style: italic;
+  padding: 0 1em;
+  margin: 0 auto;
+  font-size: 1.1em;
+  margin-left: 5em;
+  background-color: #000;
+  color: #fff;
+}
+
+.queryBtn:hover {
+  background-color: #052a4b;
+  color: #ff1493;
+}
+
+/************************************************************************/
+/*               STYLES APPLIED TO FOOTER ACROSS ALL PAGES              */
+/************************************************************************/
+
+/* This foo class targets the footer area to style its 
+font & background colours & centre the text.  */
+.footer {
+  text-align: center;
+  background-color: #000;
+  color: #4dd0e1;
+  padding-top: 50px;
+  margin-top: 100px;
+  margin-bottom: auto;
+  padding-bottom: 20px;
+}
+
+/* For social media icons */
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  max-width: 80%;
+  font-size: 30px;
+  padding-right: 1.5em;
+}
+
+.footer p {
+  font-size: 0.8em;
+}
+
+.fa {
+  width: 50px;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* This styles the 'Back to top' button  */
+#topBtn {
+  color: white;
+  position: fixed;
+  bottom: 10px;
+  float: right;
+  right: 18.5%;
+  left: 90.25%;
+  max-width: 8%;
+  width: 100%;
+  font-size: 0.8em;
+  border-color: rgba(85, 85, 85, 0.2);
+  background-color: #000;
+  padding: 2px;
+  margin-bottom: 1px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Colour of the "back to top" button changes when mouse
+  is hovered over this button */
+#topBtn:hover {
+  background-color: #052a4b;
+}
+
+/************************************************************************/
+/*                 MEDIA QUERIES FOR ALL PAGES                          */
+/************************************************************************/
 
 @media screen and (max-width: 730px) {
-    iframe {
-        width: 120%;
-    }
-
-    /*nav li a  {
-        color:  #00ced1;  
-        text-decoration: none;
-        font-style: italic;
-        font-family: 'Lora', serif;
-        font-size: 0.8em;
-    }*/
+  iframe {
+    width: 120%;
+  }
 }
 
 @media screen and (max-width: 720px) {
-    nav li a  {
-        color:  #00ced1;  
-        text-decoration: none;
-        font-style: italic;
-        font-family: 'Lora', serif;
-        font-size: 1em;
-    }
+  nav li a {
+    color: #00ced1;
+    text-decoration: none;
+    font-style: italic;
+    font-family: "Lora", serif;
+    font-size: 1em;
+  }
 }
 
 /* Media Query that apply the set of rules below if screen size is 700px or less */
 @media screen and (max-width: 700px) {
-    .responsive {       /* This rule is released to the responsive class on gallery page if condition above is met*/
-      width: 49.99999%;
-      margin: 6px 0;
-    }
+  .responsive {
+    /* This rule is released to the responsive class on gallery page if condition above is met*/
+    width: 49.99999%;
+    margin: 6px 0;
+  }
 
-    fieldset{       
-        margin:0 auto;
-    }
+  fieldset {
+    margin: 0 auto;
+  }
 
-    #home {           
-        width: 40%; 
-        margin: 0 auto;  
-    } 
+  #home {
+    width: 40%;
+    margin: 0 auto;
+  }
 
-    #home p {
-        text-align: justify;
-      } 
+  #home p {
+    text-align: justify;
+  }
 
-      section#home.text-center {
-          width: auto; 
-          padding-left: 2em;
-          padding-right: 2em;
-      }
+  section#home.text-center {
+    width: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 
-      *{
-        box-sizing: border-box;
-    }
+  * {
+    box-sizing: border-box;
+  }
 
-    section.side {
-        margin-left: 3em;
-    }
+  section.side {
+    margin-left: 3em;
+  }
 
-    div#aboutolumorock, div#facts {
-        margin: 0 auto;
-        padding: 1.5em;
-    }
+  div#aboutolumorock,
+  div#facts {
+    margin: 0 auto;
+    padding: 1.5em;
+  }
+}
 
-    div#aboutolumorock {
-        margin-left: 1.8em;
-        /*margin-right: 1.5em;*/
-    }
-} 
-    
 /* Media Query is applied to the nav bar when screen
  size is 600px or less, it changes the link's display 
- property from flex to block.  */  
+ property from flex to block.  */
 @media screen and (max-width: 600px) {
-    nav > ul {
-        display: block;
-        margin: 0.5em;
-        font-size: 0.8em;
-    } 
+  nav > ul {
+    display: block;
+    margin: 0.5em;
+    font-size: 0.8em;
+  }
 
-    /* This styles the paragraph of texts on the gallery page. */
-    #sidenote {
-        text-align: center;  
-        margin-left: 5em;
-        margin-right: 2em;
-    }  
+  /* This styles the paragraph of texts on the gallery page. */
+  #sidenote {
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 2em;
+  }
+}
 
-    /*iframe {
-        /*padding: 1em; 
-        width: auto; 
-    }*/
+@media screen and (max-width: 540px) {
+  div.gallery > img {
+    height: 40%;
+  }
+
+  div.desc {
+    height: 30%;
+  }
 }
 
 /* Media Query that apply the rules below if screen size is 500px or less */
 @media screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-     /* cc added body and  #left and #right below */
-     body{
-         min-width: 350px; 
-    }
+  .responsive {
+    width: 100%;
+  }
+  /* cc added body and  #left and #right below */
+  body {
+    min-width: 350px;
+  }
 
-    .btn {
-        margin-left: 5em;
-        font-size: 0.8em;
-    }
+  .btn {
+    margin-left: 5em;
+    font-size: 0.8em;
+  }
 
-    #enquiry legend, #contact legend {
-        font-size: 1em; 
-     }
+  #enquiry legend,
+  #contact legend {
+    font-size: 1em;
+  }
 
-     fieldset p {
-        font-size: 0.8em; 
-     }
+  fieldset p {
+    font-size: 0.8em;
+  }
 
-     #enquiry input {
-         margin-bottom: 2em;
-         width: 60%;
-     }
+  #enquiry input {
+    margin-bottom: 2em;
+    width: 60%;
+  }
 
-     textarea {
-        width: 60%;
-    }
+  textarea {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 405px) {
-    a.external {
-        font-size: 0.8em;
-    }
+  a.external {
+    font-size: 0.8em;
+  }
 }
 
 /* This changes the display property of sidebyside & side classes from block to
 flex if the condition in the media query above is met. */
-  @media screen and (min-width: 1000px) {
-    .sidebyside {
-        margin:0;
-        padding:0;
-        list-style: none;
-        display: flex;
-        flex-wrap:nowrap;
-        flex-direction:row;
-        justify-content: space-between;
-    }
-
-    .side {
-        margin:0;
-        padding:0;
-        list-style: none;
-        display: flex;
-        flex-wrap:wrap;
-        flex-direction:row;
-        justify-content: space-between;
-    } 
-
-    #aboutolumorock{     
-        width:45%;
-        margin:0 auto;
-    }
-    #facts{
-        width:45%;
-        margin:0 auto;
-    }
-  }
-  
-  /* This code block clears the grids of rows & columns used in the gallery images so
-  that the texts within the <p> tag can default to its normal flow (i.e block) */
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+@media screen and (min-width: 1000px) {
+  .sidebyside {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
+  .side {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-
-
+  #aboutolumorock {
+    width: 45%;
+    margin: 0 auto;
+  }
+  #facts {
+    width: 45%;
+    margin: 0 auto;
+  }
+}
